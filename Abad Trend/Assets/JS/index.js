@@ -1,3 +1,5 @@
+// const { BorderStyle } = require("@material-ui/icons");
+
 console.log('hi iam JS');
 
 
@@ -11,10 +13,10 @@ var swiper = new Swiper(".home_container", {
   spaceBetween: 30,
   effect: "fade",
   centeredSlides: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -91,14 +93,23 @@ anime({
 // ==================
 
 function headerheight() {
+
+  var x = window.matchMedia("(max-width: 767px)")
   let header = document.getElementById('header')
   let logo = document.getElementById('logo')
-  if (this.scrollY >= 70) {
+
+  
+  if(x.matches && this.scrollY >= 70 ){
+    header.classList.add('header_scroll_short');
+  }
+
+  else if (this.scrollY >= 70) {
     header.classList.add('header_scroll');
     logo.classList.add('logo_scroll');
   }
   else {
     header.classList.remove('header_scroll');
+    header.classList.remove('header_scroll_short');
     logo.classList.remove('logo_scroll')
   }
 }
@@ -159,32 +170,32 @@ tabs.forEach(tab => {
   })
 })
 // SlideShow of Images
-setInterval(() => {
-  images.forEach(img => {
-    img.classList.remove('experience_active')
-  })
-  tabsContent.forEach(tabsContent => {
-    tabsContent.classList.remove('experience_active')
-  })
-  tabs.forEach(tab => {
-    tab.classList.remove('active-btn')
-  })
-  tabs = [...tabs]
+// setInterval(() => {
+//   images.forEach(img => {
+//     img.classList.remove('experience_active')
+//   })
+//   tabsContent.forEach(tabsContent => {
+//     tabsContent.classList.remove('experience_active')
+//   })
+//   tabs.forEach(tab => {
+//     tab.classList.remove('active-btn')
+//   })
+//   tabs = [...tabs]
 
-  if (active === boy) {
-    girl.classList.add('experience_active')
-    document.getElementById('girl').classList.add('experience_active')
-    tabs[1].classList.add('active-btn')
-    active = girl;
-  }
-  else {
-    boy.classList.add('experience_active')
-    document.getElementById('boy').classList.add('experience_active')
-    tabs[0].classList.add('active-btn')
-    active = boy;
-  }
+//   if (active === boy) {
+//     girl.classList.add('experience_active')
+//     document.getElementById('girl').classList.add('experience_active')
+//     tabs[1].classList.add('active-btn')
+//     active = girl;
+//   }
+//   else {
+//     boy.classList.add('experience_active')
+//     document.getElementById('boy').classList.add('experience_active')
+//     tabs[0].classList.add('active-btn')
+//     active = boy;
+//   }
 
-}, 8000);
+// }, 8000);
 
 
 // Scroll-Up
@@ -199,3 +210,65 @@ if(this.scrollY >= 70 ) scrollup.classList.add('scroll-show'); else scrollup.cla
 }
 
 window.addEventListener('scroll',scrollUp);
+
+
+// SHOW NAV MENU
+
+let toogle = document.getElementById("nav_toogle");
+let navMenu = document.querySelectorAll(".nav_menu");
+let navClose = document.querySelector(".nav_close");
+
+toogle.addEventListener('click',()=>{
+  console.log("click");
+  navMenu.forEach(nav => {
+    nav.classList.add("nav_menu_show")
+    document.body.classList.add("stop-scrolling")
+    
+  });
+
+})
+navClose.addEventListener('click',()=>{
+  navMenu.forEach(nav => {
+    nav.classList.remove("nav_menu_show")
+    document.body.classList.remove("stop-scrolling")
+
+    
+  });
+})
+
+// const height = document.querySelector('.about_detail-box').offsetHeight
+// const Cheight = document.querySelector('.cat_detail-box').offsetHeight
+// console.log(height);
+// console.log(Cheight);
+
+
+// ABOUT DETAIL BOX AND CAT DETAIL BOX
+
+const icon = document.querySelectorAll(".nav_link-icon");
+icon.forEach(icon=>{
+
+
+  icon.addEventListener('click',()=>{
+    // console.log( icon.parentElement.parentElement.nextElementSibling);
+    let box = icon.parentElement.parentElement.nextElementSibling;
+    let boxParent = icon.parentElement.parentElement.parentElement;
+    if(icon.classList.contains('ri-arrow-right-s-line')){
+      box.classList.add('visible');
+      icon.classList.remove('ri-arrow-right-s-line')
+      icon.classList.add('ri-arrow-down-s-line')
+      let boxHeight = box.clientHeight;
+      boxParent.style.marginBottom = `${boxHeight}px`; 
+    }
+    else{
+      box.classList.remove('visible');
+      boxParent.style.marginBottom = '0px'; 
+      icon.classList.add('ri-arrow-right-s-line')
+      icon.classList.remove('ri-arrow-down-s-line')
+    }
+
+  })
+
+
+})
+
+

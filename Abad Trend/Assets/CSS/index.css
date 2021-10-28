@@ -94,14 +94,19 @@
 
     }
     body{
+        
+        margin: var(--header-height) 0 0 0;
         color: var(--title-text-color);
         background-color: var(--body-color);
         font-family: var(--body-font);
         font-size: var(--normal-font-size);
+        overflow-x: hidden;
     }
     html{
         scroll-behavior: smooth; /* Allows a smooth animated "scroll effect" between elements within the scrolling box. */
-      }
+        overflow-x: hidden;
+        
+    }
 
     h1,h2,h3{
 
@@ -181,7 +186,9 @@
     .header_scroll{
         top: -75px;
         background-color: hsl(var(--hue-color), 100%, 99% ,100%);
-        
+    }
+    .header_scroll_short{
+        background-color: hsl(var(--hue-color), 100%, 99% ,100%);
     }
 
     /* nav section */
@@ -224,20 +231,125 @@
         font-weight: 650;
         font-size: var(--small-font-size);
     }
+      /* Short screen  */
+@media screen and (max-width:767px){
+    .mini-header{
+        display: none;
+    }
+    .logo{
+        top: -15px;
+        font-size: var(--semi-big-font-size);
+    }
+    .logo_img{
+        width: 40px;
+        height: 40px;
+        top: 13px;
+    }
+
+    .nav{
+        height: 4rem;
+        justify-content: space-around;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .nav_menu{
+  
+      position: fixed;
+      top: 0;
+      right: -100%;
+      background-color: var(--body-color);
+      width: 70%;
+      height: 100%;
+      z-index: var(--z-fixed);
+      box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, .15);
+      padding: 3rem;
+      transition: .4s;
+        overflow-x: hidden;
+        overflow-y:scroll;
+    }
+    
+    .nav_list{
+        flex-direction: column !important; 
+        row-gap: 3rem;
+    }
+    
+    .nav_menu  .nav_item:nth-child(8){
+        display: none;
+    }
+    
+    .nav_menu  .nav_item:nth-child(9){
+        display: none;
+    }
+    .nav_toogle,.nav_cart,.nav_close{
+        display: block !important;
+    }
+
+    .about_detail-box,.cat_detail-box{
+    top: 2rem !important;    
+    left: -3rem !important;
+    background-color: rgb(133 140 143) !important;
+    width: 150%;
+    min-width: 248px !important;   
+    }
+    .cat_detail-box{
+    grid-template-columns: repeat(1,1fr) !important;
+    }
+    .nav_link-icon{
+        visibility: visible !important;
+    }
+    .about_detail:hover .about_detail-box, .cat_detail:hover .cat_detail-box{
+        animation-play-state: paused !important; 
+       visibility: hidden;
+        display: none;
+
+    }
+
+  }
+
+  /*================== *** ===============*/
+  .nav_menu_show{
+      right: 0%;
+  }
+  /* When User see the menu make scrolling stop */
+.stop-scrolling {
+    position: fixed;
+    overflow-y: hidden ;
+}
     .nav_list{
         display: flex;
         flex-direction: row;
         column-gap: 2rem;
     }
     .nav_link{
+        align-items: center;
+        display: inline-flex;
         color: black;
+
+    }
+    .nav_link-icon{
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        font-size:22px ;
     }
     .nav_link:hover,.mini-nav_link:hover{
         color: var(--first-color);
     }
+    .nav_toogle,.nav_cart,.nav_close{
+        display: none;
+    }
+    .nav_close{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    .nav_toogle,.nav_cart,.nav_close{
+        font-size: 1.5rem;
+    }
     .about_detail,.cat_detail{
         position: relative;
-        display: inline-block;
+        align-items: center;
+        display: inline-flex;
 
     }
 
@@ -283,7 +395,12 @@
     .about_detail-box a:hover,.cat_detail-box a:hover{
         color: var(--title-text-color); 
     }
-  
+    
+    .visible{
+        visibility: visible !important;
+        display: block !important;
+    }
+
     .about_detail:hover .about_detail-box{ 
         transition-delay: .1s;
         visibility: visible;  
@@ -397,6 +514,7 @@
     
     .home_img-data{
         color: var(--wite-color);
+        z-index: 1;
         position: relative;
         bottom: 34rem;
         left: 10rem;
@@ -1258,11 +1376,19 @@ bottom: 5rem;
 
 
 /* Meadia Quary */
+@media screen and (min-width:1308px){
+
+    #home_img2 + .home_img-data{
+        left: 48rem;   
+    }
+
+}
+
 
 @media screen and (max-width:1308px){
 
     #home_img2 + .home_img-data{
-        left: 45rem;   
+        left: 43rem;   
     }
     .banner {
         height: 15rem;
@@ -1286,9 +1412,49 @@ bottom: 5rem;
     .news_container{
         margin: 0 5rem;
     }
-    .experience_data{
-        left: 2rem;
+  
+    #girl  .experience_data:nth-child(2) .experience_data-content{
+        text-align: left;
+        left: -19rem;
+    
+        
+    }
+    .experience_data:nth-child(1){
+        left: 33rem;
+    
+    }
+    .experience_data:nth-child(2){
+        left: 41rem;
+    
+    }
+    .experience_data:nth-child(3){
+        top: 48rem;
+        left: 39rem;
+    
+    }
+    #girl .experience_data:nth-child(1){
+        left: 42rem;
+    
+    }
+    
+    #girl .experience_data:nth-child(2){
+        left: 34rem;
+    
+    }
+    
+    #girl .experience_data:nth-child(3){
+        left: 54rem;
+    
+    }
+    .spl_offer:nth-child(1) .spl_offer_content {
+        left: 8rem;
     }
 
+
+}
+@media screen and (max-width:320px){
+    /* .header,.mini-header{
+        display: none;
+    } */
 
 }
