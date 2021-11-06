@@ -7,16 +7,17 @@ console.log('hi iam JS');
 // const video = document.getElementById("home_img3")
 
 
-
+// 
 swiper
 var swiper = new Swiper(".home_container", {
+  slidesPerView : 'auto',
   spaceBetween: 30,
   effect: "fade",
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -93,7 +94,7 @@ anime({
 // ==================
 
 function headerheight() {
-
+  
   var x = window.matchMedia("(max-width: 767px)")
   let header = document.getElementById('header')
   let logo = document.getElementById('logo')
@@ -104,10 +105,12 @@ function headerheight() {
   }
 
   else if (this.scrollY >= 70) {
+    console.log("hello");
     header.classList.add('header_scroll');
     logo.classList.add('logo_scroll');
   }
   else {
+    console.log("HELLO WORLD");
     header.classList.remove('header_scroll');
     header.classList.remove('header_scroll_short');
     logo.classList.remove('logo_scroll')
@@ -170,32 +173,32 @@ tabs.forEach(tab => {
   })
 })
 // SlideShow of Images
-// setInterval(() => {
-//   images.forEach(img => {
-//     img.classList.remove('experience_active')
-//   })
-//   tabsContent.forEach(tabsContent => {
-//     tabsContent.classList.remove('experience_active')
-//   })
-//   tabs.forEach(tab => {
-//     tab.classList.remove('active-btn')
-//   })
-//   tabs = [...tabs]
+setInterval(() => {
+  images.forEach(img => {
+    img.classList.remove('experience_active')
+  })
+  tabsContent.forEach(tabsContent => {
+    tabsContent.classList.remove('experience_active')
+  })
+  tabs.forEach(tab => {
+    tab.classList.remove('active-btn')
+  })
+  tabs = [...tabs]
 
-//   if (active === boy) {
-//     girl.classList.add('experience_active')
-//     document.getElementById('girl').classList.add('experience_active')
-//     tabs[1].classList.add('active-btn')
-//     active = girl;
-//   }
-//   else {
-//     boy.classList.add('experience_active')
-//     document.getElementById('boy').classList.add('experience_active')
-//     tabs[0].classList.add('active-btn')
-//     active = boy;
-//   }
+  if (active === boy) {
+    girl.classList.add('experience_active')
+    document.getElementById('girl').classList.add('experience_active')
+    tabs[1].classList.add('active-btn')
+    active = girl;
+  }
+  else {
+    boy.classList.add('experience_active')
+    document.getElementById('boy').classList.add('experience_active')
+    tabs[0].classList.add('active-btn')
+    active = boy;
+  }
 
-// }, 8000);
+}, 8000);
 
 
 // Scroll-Up
@@ -205,7 +208,7 @@ function scrollUp(){
 
 if(this.scrollY >= 70 ) scrollup.classList.add('scroll-show'); else scrollup.classList.remove('scroll-show')   
 
-
+console.log("hello");
 
 }
 
