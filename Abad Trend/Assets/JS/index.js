@@ -275,3 +275,20 @@ icon.forEach(icon=>{
 })
 
 
+// ========         SCROOL REVEL    ===//
+
+const sr = ScrollReveal({
+  distance: '60px',
+  duration: 2800,
+  // reset: true,
+})
+
+  sr.reveal(`.whats_card, .gallery_product `,{
+      origin: 'bottom',
+      interval: 100,
+  })
+
+  sr.reveal(`.news_card`,{
+      origin: 'left',
+  })
+ 
