@@ -1,0 +1,36 @@
+.header{
+    background-color: hsl(var(--hue-color), 100%, 99%); ;
+}
+.poster{
+position: relative;
+overflow: hidden;
+}
+.fashion-poster{
+    position: relative;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+
+}
+
+/* BUTTONS =====================*/
+.quiary-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+.fillter-btn , .shorting-btn{
+    border: 2px solid var(--text-color-light);
+    padding: 7px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
