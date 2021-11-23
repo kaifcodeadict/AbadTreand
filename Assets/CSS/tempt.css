@@ -1,0 +1,111 @@
+/* ==== MEDIUM SCREEN SIZE === */
+
+@media screen and (min-width:586px){
+
+    .home_container{
+        height: 65vh;
+    }
+    .home_img-data{
+        bottom: 17rem;
+        left: 2.5rem;
+    }
+    .home_data-title {
+        line-height: 3rem;
+    }
+    .home_data-subtitle{
+        margin: var(--mb-1) 0;
+        padding: 0 13rem 0px 6px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 2rem;
+    }
+    #home_img2 + .home_img-data {
+        left: 22rem ;
+    }
+    #home_img2 + .home_img-data .home_data-title {
+        font-size:var(--semi-big-font-size);
+        line-height:3;
+    }
+    #home_img2 + .home_img-data  .home_data-subtitle{
+        padding: 0px 25rem 0px 6px;
+
+    }
+     /* BANNER */
+     .banner {
+        height: 9rem;
+    }
+    .banner_content {
+        margin: 2rem 3rem;
+    }
+     /* COLLECTION */
+     .collec_data1{
+         left: 0.5rem;
+     }
+     .collec_data-title{
+         padding-right: 10rem;
+     }
+     .collec_data-subtitle{
+        line-height: 3rem;
+        padding-right: 1rem;
+    }
+     /* NEWS SECTION */
+     .news_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+       /* subscribe banner */
+       .subscribe_content{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+     /* BRANDS */
+     .brand{
+        padding: 0;
+    }
+    .experience_section{
+        display: none;
+    }
+    .brands_section{
+        padding-top: 2rem;
+    }
+    .gallery_container{
+        display: block;
+        grid-template-columns: max-content repeat(auto-fit,minmax(250px,1fr));
+    }
+    .gallery_descripiton{
+        padding: 0;
+    }
+    .gallery_products{
+        gap: 0;    
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) ;
+    }
+     /* SPECIAL SECTITON */
+
+     .spl_offers_section {
+        height: 129vh;
+    }
+    .spl_offers_container{
+        flex-direction: column;
+    }
+    .spl_offer_img{
+        height: 20rem;
+    }
+    .spl_offer_content{
+        /* width: 18rem; */
+        /* top: 28rem; */
+    }
+    .spl_offer:nth-child(1) .spl_offer_content{
+        top: 0rem;
+        left: 0;
+    }
+    .spl_offer_title{
+        line-height: 3rem;
+    }
+    .spl_offer_descripiton {
+        line-height: 1rem;
+    }
+
+}
