@@ -228,8 +228,6 @@ let fillterMenu = document.querySelector(".fillter-menu");
 
 
 document.onclick = function(event){
-  console.log(event.target.id);
-  console.log(event.target.className);
 
    
   if( event.target.id == "nav-close" || event.target.className == "stop-scrolling" || event.target.className == "overlay visible"){

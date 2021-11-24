@@ -248,6 +248,11 @@
         font-weight: 650;
         font-size: var(--small-font-size);
     }
+    .fillter-menu{
+        position: relative;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
    
   .nav_menu_show{
       right: 0%;
@@ -392,9 +397,12 @@
       z-index: var(--z-fixed);
       box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, .15);
       padding: 3rem;
-      transition: .3s;
+      transition: .4s;
         overflow-x: hidden;
         overflow-y:scroll;
+    }
+    .fillter-menu{
+        /* right: 0; */
     }
     
     .nav_list{
