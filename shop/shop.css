@@ -14,6 +14,7 @@ overflow: hidden;
 
 }
 
+
 /* BUTTONS =====================*/
 .quiary-btns{
     display: flex;
@@ -29,8 +30,29 @@ overflow: hidden;
     align-items: center;
     justify-content: space-evenly;
 }
+.search-btn{
+    position: absolute;
+    z-index: 10;
+    bottom: 1.2rem;
+    left: 9rem;
+    background-color: transparent;
+}
 
-
+/* =============== */
+.search_bar{
+    position: relative;
+    padding: 2rem;
+}
+.psearch{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+    background-color: var(--text-color-light);
+    padding: .5rem;
+    border-radius: 30px;
+   /* min-width:10%; */
+   max-width: 120%;
+}
 
 
 
