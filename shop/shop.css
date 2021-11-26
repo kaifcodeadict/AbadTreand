@@ -35,6 +35,8 @@ overflow: hidden;
     z-index: 10;
     bottom: 1.2rem;
     left: 9rem;
+    /* right: 1rem; */
+    /* float: left; */
     background-color: transparent;
 }
 
@@ -47,12 +49,176 @@ overflow: hidden;
     position: absolute;
     top: 1rem;
     left: 0rem;
+    float: right;
     background-color: var(--text-color-light);
     padding: .5rem;
     border-radius: 30px;
    /* min-width:10%; */
    max-width: 120%;
 }
+.search_bar::after{
+    content: "";
+    background:  var(--text-color-light);
+    width: 137%;
+    height: 1px;
+    position: absolute;
+    top: 90px;
+    left: 60%;
+    transform: translateX(-50%);
+}
 
+/*==================== product catgrioes ================== */
+.fill_section{
+    padding: 4rem 0 3rem ;
+}
+.fill-section_title{
+    margin-top: -3rem;
+    font-size: var(--h3-font-size);
+    margin-left: -.8rem;
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    letter-spacing: 3px;
 
+    
+}
+.categories_section > .fill-section_title {
+    margin-top: 0rem;
+}
+.categories_menu{
+    position: relative;
+    padding: 2rem 0;
+}
+.categories_link,.color_link{
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+ul li:nth-of-type(3n+1) .categories_link{
+    margin-left: -.8rem;
+}
+.categories_item,.color_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories_item:hover a,.color_item:hover a{
+    color:var(--first-color);
+}
+.categories_item:hover .item_count{
+    background-color:var(--first-color);
+
+}
+.item_count{
+    background-color: var(--text-color-light);
+    font-size:var(--smaller-font-size) ;
+    padding: .2rem .4rem;
+    border-radius: 40%;
+}
+.fill_section::after{
+    content: "";
+    background:  var(--text-color-light);
+    width: 98%;
+    height: 1px;
+    position: absolute;
+    left: 54%;
+    transform: translateX(-50%);
+}
+
+.price_section{
+    padding: 2rem 0 2rem;
+}
+/* .price_section::after{
+    content: "";
+    bottom: 1rem;
+} */
+
+/* === Fillter by price ======== */
+.fillter_price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price_section >.fill-section_title{
+    margin-left: 0;
+}
+.range{
+    width: 300px;
+}
+.range_slider{
+    width: 80%;
+    padding: 2rem 0 3rem 0;
+}
+.range_value{
+    position: relative;
+    top: -1rem;
+    left: -.3rem;
+    width: 35%;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.form_group label{
+    position: relative;
+    color: var(--text-color-light);
+    font-size: var(--h3-font-size);
+}
+.form_group span{
+    color: var(--text-color);
+}
+.range_slider [type="range"]{
+    width: 100%;
+    -webkit-appearance: none;
+    height: 8px;
+    border-radius: 6px;
+    background: #f1f1f1;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+.range_slider [type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    -webkit-transition: background .15s ease-in-out;
+    transition: backgroung .15s ease-in-out;
+}
+.range_slider [type="range"]::-moz-range-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    -webkit-transition: background .15s ease-in-out;
+    transition: backgroung .15s ease-in-out;
+}
+/* remove boder */
+input::-moz-focus-inner,input::-moz-focus-outer{
+    border:0;
+}
+
+/* === Fillter by price ======== */
+
+/* ====color selection */
+
+ .color-select{
+    width: 25px;
+    height:25px;
+    margin-left: -13px;
+    border-radius: 50%;
+    background: rgb(233, 38, 38);
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.color_link{
+    line-height: 3rem;
+}
+
+/* ====color selection */
 
