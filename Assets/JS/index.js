@@ -108,12 +108,10 @@ function headerheight() {
   }
 
   else if (this.scrollY >= 70) {
-    console.log("hello");
     header.classList.add('header_scroll');
     logo.classList.add('logo_scroll');
   }
   else {
-    console.log("HELLO WORLD");
     header.classList.remove('header_scroll');
     header.classList.remove('header_scroll_short');
     logo.classList.remove('logo_scroll')
@@ -206,15 +204,19 @@ tabs.forEach(tab => {
 
 // Scroll-Up
 
-function scrollUp(){
-  const scrollup = document.getElementById('scroll-up');
+if(scrollUp){
 
-if(this.scrollY >= 70 ) scrollup.classList.add('scroll-show'); else scrollup.classList.remove('scroll-show')   
-
-console.log("hello");
-
+  
+  function scrollUp(){
+    const scrollup = document.getElementById('scroll-up');
+    
+    if(this.scrollY >= 70 ) scrollup.classList.add('scroll-show'); else scrollup.classList.remove('scroll-show')   
+    
+    console.log("hello");
+    
+  }
+  
 }
-
 window.addEventListener('scroll',scrollUp);
 
 
@@ -225,32 +227,47 @@ let navMenu = document.getElementById("nav_menu");
 let navClose = document.querySelector(".nav_close");
 let over = document.querySelector(".overlay");
 let fillterMenu = document.querySelector(".fillter-menu");
+var x = window.matchMedia("(max-width: 1000px)")
+let brandSection = document.querySelector(".shop_brands_section");
+let footer = document.querySelector(".footer");
+
+console.log(x);
+
+if ( x.matches == true ) {
 
 
-document.onclick = function(event){
-
-   
-  if( event.target.id == "nav-close" || event.target.className == "stop-scrolling" || event.target.className == "overlay visible"){
-      navMenu.classList.remove("nav_menu_show")
-      if(fillterMenu){
-        fillterMenu.classList.remove("nav_menu_show")
-      }
-    over.classList.remove('visible')
-      document.body.classList.remove("stop-scrolling")
+  document.onclick = function(event){
   
+     
+    if( event.target.id == "nav-close" || event.target.className == "stop-scrolling" || event.target.className == "overlay visible"){
+        navMenu.classList.remove("nav_menu_show")
+        if(fillterMenu){
+          fillterMenu.classList.remove("nav_menu_show")
+        }
+        over.classList.remove('visible')
+        document.body.classList.remove("stop-scrolling")
+        brandSection.style.display = "block"
+        footer.style.display = "block"
+        
+        
+    }
+    else if (event.target.className == 'nav_toogle ' || event.target.className == "ri-list-check") {
+      navMenu.classList.add("nav_menu_show")
+      over.classList.add('visible')
+      document.body.classList.add("stop-scrolling")
+      brandSection.style.display = "none"
+     footer.style.display = "none"
+  
+    }
+    else if (event.target.className == 'fillter-btn' || event.target.className == "ri-equalizer-fill") {
+      fillterMenu.classList.add("nav_menu_show")
+      over.classList.add('visible')
+      document.body.classList.add("stop-scrolling")
+     brandSection.style.display = "none"
+     footer.style.display = "none"
       
-  }
-  else if (event.target.className == 'nav_toogle ' || event.target.className == "ri-list-check") {
-    navMenu.classList.add("nav_menu_show")
-    over.classList.add('visible')
-    document.body.classList.add("stop-scrolling")
-
-  }
-  else if (event.target.className == 'fillter-btn' || event.target.className == "ri-equalizer-fill") {
-    fillterMenu.classList.add("nav_menu_show")
-    over.classList.add('visible')
-    document.body.classList.add("stop-scrolling")
-
+    }
+  
   }
 
 }

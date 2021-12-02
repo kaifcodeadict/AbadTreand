@@ -250,7 +250,8 @@
     }
     .fillter-menu{
         position: relative;
-        /* width:18% ; */
+        width:16% ;
+        margin-left: 2rem;
         /* display: flex; */
         /* flex-direction: column; */
     }
@@ -368,6 +369,12 @@
         }     
            /* Short screen  */
 @media screen and (max-width:767px){
+    .product_container{
+        position: relative;
+    
+        /* display: flex; */
+        grid-template-columns: repeat(2,1fr) !important;
+    }
     .mini-header{
         display: none;
     }
@@ -394,6 +401,7 @@
       right: -100%;
       background-color: var(--body-color);
       width: 70%;
+      min-width: 251px;
       max-width: 350px;
       height: 100%;
       z-index: var(--z-fixed);
@@ -456,7 +464,7 @@
   /*================== *** ===============*/
 
   .nav_menu_show{
-    right: 0%;
+    right: 0% !important;
 }
 .visible{
     visibility: visible  ;
@@ -876,7 +884,7 @@
 .whats_card:hover  .whats_card_img2{
     left: 0;
 }
-.whats_card_data{
+.whats_card_data,.product_card_data{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1543,6 +1551,7 @@ bottom: 5rem;
 /* ==== MEDIUM SCREEN SIZE === */
 
 @media screen and (min-width:350px) and (max-width:1252px) {
+   
     .swiper-slide{
         height: 35rem;
     }
