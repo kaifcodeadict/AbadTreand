@@ -474,8 +474,17 @@ input::-moz-focus-inner,input::-moz-focus-outer{
 }
 
 @media screen and (min-width:1000px) {
+    .shorting_detail{
+        margin-top: 18rem;
+    }
+    .fillter-btn{
+        visibility: hidden;
+    }
     .quiary-btns{
         margin-top: 2rem;
+    }
+    .psearch{
+        left: -1rem;
     }
     .product_section{
         position: absolute;
@@ -485,12 +494,37 @@ input::-moz-focus-inner,input::-moz-focus-outer{
         margin-left: 21rem;
     }
     .product_card-img{
-    /* max-width: 22rem; */
+    max-width: 22rem;
 
     }
-    /* .page_section{
+    .page_section{
         position: relative;
-        bottom: 40rem;
-        left: 6rem;
-    } */
+        bottom: 35rem;
+        left: 8rem;
+    }
+    .shop_brands_section{
+        padding-top: 0;
+        margin: -6rem;
+    }
+    .cradits_container{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1200px){
+   
+    .page_section{
+        bottom: 20rem;
+    }
+}
+@media screen and (min-width:1300px) {
+    .product_section{
+        top: 45rem;
+    }
+    .page_section{
+        bottom: 3rem;
+
+    }
+    .shop_brands_section{
+        margin: 0;
+    }
 }
