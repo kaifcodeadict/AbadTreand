@@ -204,7 +204,6 @@ tabs.forEach(tab => {
 
 // Scroll-Up
 
-if(scrollUp){
 
   
   function scrollUp(){
@@ -216,7 +215,6 @@ if(scrollUp){
     
   }
   
-}
 window.addEventListener('scroll',scrollUp);
 
 
