@@ -8,16 +8,16 @@
                     {
                         "id": "1.1.1",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/go-pro"
+                                "url": "assets/images/go-pro"
                             },
                             {
-                                "url": "./assests/go-pro (2)"
+                                "url": "assets/images/go-pro (2)"
                             }
                         ],
-                        "product-name": "go-pro",
+                        "productName": "go-pro",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -47,12 +47,12 @@
                         },
                         "brand": "hero9",
                         "price": {
-                            "offer-price": "$39.99",
-                            "sell-price": "$29.99"
+                            "offerPrice": "$39.99",
+                            "sellPrice": "29.99"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
-                            "age": ""
+                            "offerPercentage": "25",
+                            "age": "old"
                         },
                         "rating": "4",
                         "dimensions": "35 x 20 x 56 cm",
@@ -75,23 +75,27 @@
                     {
                         "id": "1.1.2",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/tv-remote-control"
+                                "url": "assets/images/tv-remote-control"
                             },
                             {
-                                "url": "./assests/tv-remote-control (2)"
+                                "url": "assets/images/tv-remote-control (2)"
                             }
                         ],
-                        "product-name": "tv remote control",
+                        "productName": "tv remote control",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "impression",
                         "price": {
-                            "sell-price": "$179.00"
+                            "sellPrice": "179.00"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -104,16 +108,16 @@
                     {
                       "id": "1.1.3",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/air-tag"
+                                "url": "assets/images/air-tag"
                             },
                             {
-                                "url": "./assests/air-tag (2)"
+                                "url": "assets/images/air-tag (2)"
                             }
                         ],
-                        "product-name": "air tag",
+                        "productName": "air tag",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -121,11 +125,11 @@
                         },
                         "brand": "apple",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$59.99"
+                            "offerPrice": "",
+                            "sellPrice": "59.99"
                         },
                         "sticker": {
-                            "offer-percentage": "",
+                            "offerPercentage": "10",
                             "age": "new"
                         },
                         "rating": "5",
@@ -144,16 +148,16 @@
                     {
                         "id": "1.1.4",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/gear-vr"
+                                "url": "assets/images/gear-vr"
                             },
                             {
-                                "url": "./assests/gear-vr (2)"
+                                "url": "assets/images/gear-vr (2)"
                             }
                         ],
-                        "product-name": "gear vr",
+                        "productName": "gear vr",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -183,10 +187,13 @@
                         },
                         "brand": "oculus",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$159"
+                            "offerPrice": "",
+                            "sellPrice": "159"
                         },
-                       
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "rating": "4",
                         "colors": [
                             {
@@ -198,16 +205,16 @@
                     {
                         "id": "1.1.5",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/i-pad"
+                                "url": "assets/images/i-pad"
                             },
                             {
-                                "url": "./assests/i-pad (2)"
+                                "url": "assets/images/i-pad (2)"
                             }
                         ],
-                        "product-name": "i pad",
+                        "productName": "i pad",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -215,8 +222,12 @@
                         },
                         "brand": "apple",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$99"
+                            "offerPrice": "",
+                            "sellPrice": "99"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -235,16 +246,16 @@
                     {
                         "id": "1.1.6",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/go-pro"
+                                "url": "assets/images/go-pro"
                             },
                             {
-                                "url": "./assests/go-pro (2)"
+                                "url": "assets/images/go-pro (2)"
                             }
                         ],
-                        "product-name": "go-pro",
+                        "productName": "go-pro",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -274,12 +285,12 @@
                         },
                         "brand": "hero9",
                         "price": {
-                            "offer-price": "$39.99",
-                            "sell-price": "$29.99"
+                            "offerPrice": "39.99",
+                            "sellPrice": "29.99"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
-                            "age": ""
+                            "offerPercentage": "25",
+                            "age": "old"
                         },
                         "rating": "4",
                         "dimensions": "35 x 20 x 56 cm",
@@ -302,23 +313,27 @@
                     {
                         "id": "1.1.7",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/tv-remote-control"
+                                "url": "assets/images/tv-remote-control"
                             },
                             {
-                                "url": "./assests/tv-remote-control (2)"
+                                "url": "assets/images/tv-remote-control (2)"
                             }
                         ],
-                        "product-name": "tv remote control",
+                        "productName": "tv remote control",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "impression",
                         "price": {
-                            "sell-price": "$179.00"
+                            "sellPrice": "179.00"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -331,16 +346,16 @@
                     {
                       "id": "1.1.8",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/air-tag"
+                                "url": "assets/images/air-tag"
                             },
                             {
-                                "url": "./assests/air-tag (2)"
+                                "url": "assets/images/air-tag (2)"
                             }
                         ],
-                        "product-name": "air tag",
+                        "productName": "air tag",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -348,11 +363,11 @@
                         },
                         "brand": "apple",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$59.99"
+                            "offerPrice": "",
+                            "sellPrice": "59.99"
                         },
                         "sticker": {
-                            "offer-percentage": "",
+                            "offerPercentage": "",
                             "age": "new"
                         },
                         "rating": "5",
@@ -371,16 +386,16 @@
                     {
                         "id": "1.1.9",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/gear-vr"
+                                "url": "assets/images/gear-vr"
                             },
                             {
-                                "url": "./assests/gear-vr (2)"
+                                "url": "assets/images/gear-vr (2)"
                             }
                         ],
-                        "product-name": "gear vr",
+                        "productName": "gear vr",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -410,14 +425,17 @@
                         },
                         "brand": "oculus",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$159"
+                            "offerPrice": "",
+                            "sellPrice": "159"
                         },
-                       
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "rating": "4",
                         "colors": [
                             {
-                                "color": ""
+                                "color": "red"
                             }
                         ],
                         "sale": "false"
@@ -425,16 +443,16 @@
                     {
                         "id": "1.1.10",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/i-pad"
+                                "url": "assets/images/i-pad"
                             },
                             {
-                                "url": "./assests/i-pad (2)"
+                                "url": "assets/images/i-pad (2)"
                             }
                         ],
-                        "product-name": "i pad",
+                        "productName": "i pad",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -442,8 +460,12 @@
                         },
                         "brand": "apple",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$99"
+                            "offerPrice": "",
+                            "sellPrice": "99"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -462,16 +484,16 @@
                     {
                         "id": "1.1.11",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/drone"
+                                "url": "assets/images/drone"
                             },
                             {
-                                "url": "./assests/drone (2)"
+                                "url": "assets/images/drone (2)"
                             }
                         ],
-                        "product-name": "fusion drone",
+                        "productName": "fusion drone",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -502,11 +524,12 @@
                         },
                         "brand": "lenova",
                         "price": {
-                            "offer-price": "$399.00",
-                            "sell-price": "$249.00"
+                            "offerPrice": "399.00",
+                            "sellPrice": "249.00"
                         },
                         "sticker": {
-                            "offer-percentage": "38"
+                            "offerPercentage": "38",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -537,16 +560,16 @@
                     {
                         "id": "1.1.12",
                         "categorie": "electronics",
-                        "sub-categorie": "devices",
-                        "product-image": [
+                        "subCategorie": "devices",
+                        "productImage": [
                             {
-                                "url": "./assests/images/i-pad"
+                                "url": "assets/images/i-pad"
                             },
                             {
-                                "url": "./assests/i-pad (2)"
+                                "url": "assets/images/i-pad (2)"
                             }
                         ],
-                        "product-name": "i pad mini",
+                        "productName": "i pad mini",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -554,8 +577,12 @@
                         },
                         "brand": "apple",
                         "price": {
-                            "offer-price": "",
-                            "sell-price": "$59"
+                            "offerPrice": "",
+                            "sellPrice": "59"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -577,23 +604,27 @@
                     {
                         "id": "1.2.1",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/apple-watch"
+                                "url": "assets/images/apple-watch"
                             },
                             {
-                                "url": "./assests/apple-watch (2)"
+                                "url": "assets/images/apple-watch (2)"
                             }
                         ],
-                        "product-name": "apple watch series 7",
+                        "productName": "apple watch series 7",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "apple",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [ {"color": "black"},{"color": "red"},{"color": "gray"}],
                         "weight": "907g",
@@ -603,27 +634,27 @@
                     {
                         "id": "1.2.2",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/headphones"
+                                "url": "assets/images/headphones"
                             },
                             {
-                                "url": "./assests/headphones (2)"
+                                "url": "assets/images/headphones (2)"
                             }
                         ],
-                        "product-name": "meagabeats headphones",
+                        "productName": "meagabeats headphones",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "boat",
                         "price": {
-                            "offer-price": "$59.99",
-                            "sell-price": "$39.99"
+                            "offerPrice": "59.99",
+                            "sellPrice": "39.99"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "new"
                         },
                         "rating": "5",
@@ -634,24 +665,28 @@
                     {
                         "id": "1.2.3",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/i-phone"
+                                "url": "assets/images/i-phone"
                             },
                             {
-                                "url": "./assests/i-phone (2)"
+                                "url": "assets/images/i-phone (2)"
                             }
                         ],
-                        "product-name": "apple",
+                        "productName": "apple",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "i phone 13 pro",
                         "price": {
-                            "sell-price": "$150.00"
-                        },                      
+                            "sellPrice": "150.00"
+                        }, 
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },                     
                         "colors": [ {"color": "black"},{"color": "red"},{"color": "wite"},{"color": "blue"},{"color": "gray"}],
                         "weight": "0.20kg",
                         "sale": "false"
@@ -659,23 +694,27 @@
                     {
                         "id": "1.2.4",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/hellmet"
+                                "url": "assets/images/i-pad"
                             },
                             {
-                                "url": "./assests/hellmet (2)"
+                                "url": "assets/images/i-pad (2)"
                             }
                         ],
-                        "product-name": "digital sport",
+                        "productName": "digital sport",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "roayl enfield",
                         "price": {
-                            "sell-price": "$43.99"
+                            "sellPrice": "43.99"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "rating": "5",
                         "colors":[{"color":"black"}],
@@ -685,16 +724,16 @@
                     {
                         "id": "1.2.5",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/speakers"
+                                "url": "assets/images/speakers"
                             },
                             {
-                                "url": "./assests/speakers (2)"
+                                "url": "assets/images/speakers (2)"
                             }
                         ],
-                        "product-name": "jpl home theaters",
+                        "productName": "jpl home theaters",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -724,11 +763,11 @@
                         },
                         "brand": "jpl",
                         "price": {
-                            "offer-price": "$145.00",
-                            "sell-price": "$110.00"
+                            "offerPrice": "$145.00",
+                            "sellPrice": "110.00"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "new"
                         },
                         "rating": "5",
@@ -739,25 +778,25 @@
                     {
                         "id": "1.2.6",
                         "categorie": "electronics",
-                        "sub-categorie": "gadgets",
-                        "product-image": [
+                        "subCategorie": "gadgets",
+                        "productImage": [
                             {
-                                "url": "./assests/images/mic"
+                                "url": "assets/images/mic"
                             }
                         ],
-                        "product-name": "one mic",
+                        "productName": "one mic",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "spark",
                         "price": {
-                            "sell-price": "$29.99"
+                            "sellPrice": "29.99"
                         },
                         "sticker": {
                             "age": "new"
                         },
-                        "color": "black",
+                        "colors":[{"color":"black"}],
                         "weight": "907g",
                         "sale": "false"
                     }
@@ -770,16 +809,16 @@
                     {
                         "id": "2.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/classic-handbag"
+                                "url": "assets/images/classic-handbag"
                             },
                             {
-                                "url": "./assests/classic-handbag"
+                                "url": "assets/images/classic-handbag (2)"
                             }
                         ],
-                        "product-name": "Little Temptation",
+                        "productName": "Little Temptation",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -809,11 +848,12 @@
                         },
                         "brand": "Luvi vitton",
                         "price": {
-                            "offer-price": "$167.45",
-                            "sell-price": "$147.45"
+                            "offerPrice": "$67.45",
+                            "sellPrice": "147.45"
                         },
                         "sticker": {
-                            "offer-percentage": "12"
+                            "offerPercentage": "12",
+                            "age": "old"
                         },
                         "rating": "5",
                         "colors": [
@@ -838,16 +878,16 @@
                     {
                         "id": "2.1.2",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/classic-handbag"
+                                "url": "assets/images/classic-handbag"
                             },
                             {
-                                "url": "./assests/classic-handbag"
+                                "url": "assets/images/classic-handbag"
                             }
                         ],
-                        "product-name": "Little Temptation",
+                        "productName": "Little Temptation",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -877,11 +917,12 @@
                         },
                         "brand": "Luvi vitton",
                         "price": {
-                            "offer-price": "$167.45",
-                            "sell-price": "$147.45"
+                            "offerPrice": "$167.45",
+                            "sellPrice": "147.45"
                         },
                         "sticker": {
-                            "offer-percentage": "12"
+                            "offerPercentage": "12",
+                            "age": "old"
                         },
                         "rating": "5",
                         "colors": [
@@ -906,16 +947,16 @@
                     {
                         "id": "2.1.3",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/classic-glass"
+                                "url": "assets/images/classic-glass"
                             },
                             {
-                                "url": "./assests/classic-glass (2)"
+                                "url": "assets/images/classic-glass (2)"
                             }
                         ],
-                        "product-name": "special glasses",
+                        "productName": "special glasses",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -945,8 +986,8 @@
                         },
                         "brand": "gucci",
                         "price": {
-                            "offer-price": "$167.45",
-                            "sell-price": "$147.45"
+                            "offerPrice": "$167.45",
+                            "sellPrice": "147.45"
                         },
                         "sticker": {
                             "age": "new"
@@ -973,16 +1014,16 @@
                     {
                         "id": "2.1.4",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/earings (2)"
+                                "url": "assets/images/earings (2)"
                             },
                             {
-                                "url": "./assests/earings"
+                                "url": "assets/images/earings"
                             }
                         ],
-                        "product-name": "special glasses",
+                        "productName": "special glasses",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -1012,7 +1053,11 @@
                         },
                         "brand": "tanish",
                         "price": {
-                            "sell-price": "$194.99"
+                            "sellPrice": "$194.99"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1035,16 +1080,16 @@
                     {
                         "id": "2.1.5",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/girl-google"
+                                "url": "assets/images/girl-google"
                             },
                             {
-                                "url": "./assests/girl-google (2)"
+                                "url": "assets/images/girl-google (2)"
                             }
                         ],
-                        "product-name": "stylish glasses",
+                        "productName": "stylish glasses",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -1074,10 +1119,11 @@
                         },
                         "brand": "gucci",
                         "price": {
-                            "sell-price": "$39.99"
+                            "sellPrice": "39.99"
                         },
                         "sticker": {
-                            "offer-percentage":"12"
+                            "offerPercentage":"12",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1100,16 +1146,16 @@
                     {
                         "id": "2.1.6",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/lockets"
+                                "url": "assets/images/lockets"
                             },
                             {
-                                "url": "./assests/lockets (2)"
+                                "url": "assets/images/lockets (2)"
                             }
                         ],
-                        "product-name": "trandy locket",
+                        "productName": "trandy locket",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
@@ -1139,8 +1185,12 @@
                         },
                         "brand": "A&V jewallery",
                         "price": {
-                            "sell-price": "$98.99"
-                        },                        
+                            "sellPrice": "98.99"
+                        }, 
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },                       
                         "colors": [
                             {
                                 "color": "red"
@@ -1162,16 +1212,16 @@
                     {
                         "id": "2.1.7",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/moden-glass"
+                                "url": "assets/images/moden-glass"
                             },
                             {
-                                "url": "./assests/moden-glass (2)"
+                                "url": "assets/images/moden-glass (2)"
                             }
                         ],
-                        "product-name": "sunglass by armani",
+                        "productName": "sunglass by armani",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -1179,7 +1229,11 @@
                         },
                         "brand": "armani",
                         "price": {
-                            "sell-price": "$30.99"
+                            "sellPrice": "30.99"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "rating": "5",
                         "colors": [
@@ -1203,20 +1257,24 @@
                     {
                         "id": "2.1.8",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/rings"
+                                "url": "assets/images/rings"
                             }
                         ],
-                        "product-name": "rings by varsace",
+                        "productName": "rings by varsace",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "varsace",
                         "price": {
-                            "sell-price": "$20.00"
+                            "sellPrice": "20.00"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1242,13 +1300,13 @@
                     {
                         "id": "2.1.9",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/grey-handbag"
+                                "url": "assets/images/grey-handbag"
                             }
                         ],
-                        "product-name": "lv handbags",
+                        "productName": "lv handbags",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -1256,11 +1314,12 @@
                         },
                         "brand": "Luvi vitton",
                         "price": {
-                            "offer-price": "$167.45",
-                            "sell-price": "$147.45"
+                            "offerPrice": "$167.45",
+                            "sellPrice": "147.45"
                         },
                         "sticker": {
-                            "offer-percentage": "29"
+                            "offerPercentage": "29",
+                            "age": "old"
                         },
                         "rating": "5",
                         "colors": [
@@ -1284,22 +1343,25 @@
                     {
                         "id": "2.1.10",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/goggle-in"
+                                "url": "assets/images/goggle-in"
                             }
                         ],
-                        "product-name": "goggle by dm",
+                        "productName": "goggle by dm",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "dange vung",
                         "price": {
-                            "sell-price": "$47.45"
+                            "sellPrice": "47.45"
                         },
-                      
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "golden"
@@ -1327,22 +1389,26 @@
                     {
                         "id": "2.1.11",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/neclace"
+                                "url": "assets/images/neclace"
                             }
                         ],
-                        "product-name": "necklace",
+                        "productName": "necklace",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "tanish",
                         "price": {
-                            "sell-price": "$60.00"
+                            "sellPrice": "60.00"
                         },
-                      
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
+
                         "colors": [
                             {
                                 "color": "golden"
@@ -1364,22 +1430,25 @@
                     {
                         "id": "2.1.12",
                         "categorie": "fashion",
-                        "sub-categorie": "accessoires",
-                        "product-image": [
+                        "subCategorie": "accessoires",
+                        "productImage": [
                             {
-                                "url": "./assests/images/dimon-ring"
+                                "url": "assets/images/dimon-ring"
                             }
                         ],
-                        "product-name": "wedding - ring",
+                        "productName": "wedding - ring",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "tanish",
                         "price": {
-                            "sell-price": "$256.99"
+                            "sellPrice": "256.99"
                         },
-                      
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "golden"
@@ -1404,25 +1473,28 @@
                     {
                         "id": "2.2.1",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$163"
+                            "sellPrice": "163"
                         },
-
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "black",
@@ -1463,27 +1535,27 @@
                     {
                         "id": "2.2.2",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c2"
+                                "url": "assets/images/c2"
                             },
                             {
-                                "url": "./assests/images/c2 (2)"
+                                "url": "assets/images/c2 (2)"
                             }
                         ],
-                        "product-name": "black impression",
+                        "productName": "black impression",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "impression",
                         "price": {
-                            "offer-price":"$139.99",
-                            "sell-price": "$120"
+                            "offerPrice":"$139.99",
+                            "sellPrice": "120"
                         },
                         "sticker": {
-                            "offer-percentage":"10",
+                            "offerPercentage":"10",
                             "age": "new"
                         },
                         "colors": [
@@ -1526,23 +1598,27 @@
                     {
                         "id": "2.2.3",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c3"
+                                "url": "assets/images/c3"
                             },
                             {
-                                "url": "./assests/images/c3 (2)"
+                                "url": "assets/images/c3 (2)"
                             }
                         ],
-                        "product-name": "pink beath",
+                        "productName": "pink beath",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "pinky",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1579,23 +1655,23 @@
                     {
                         "id": "2.2.4",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c4"
+                                "url": "assets/images/c4"
                             },
                             {
-                                "url": "./assests/images/c4 (2)"
+                                "url": "assets/images/c4 (2)"
                             }
                         ],
-                        "product-name": "unisex hoddi",
+                        "productName": "unisex hoddi",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "hollywood",
                         "price": {
-                            "sell-price": "$53.00"
+                            "sellPrice": "53.00"
                         },
                         "sticker": {
                             "age": "new"
@@ -1640,23 +1716,23 @@
                     {
                         "id": "2.2.5",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c5"
+                                "url": "assets/images/c5"
                             },
                             {
-                                "url": "./assests/images/c5 (2)"
+                                "url": "assets/images/c5 (2)"
                             }
                         ],
-                        "product-name": "all black combo",
+                        "productName": "all black combo",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "levis",
                         "price": {
-                            "sell-price": "$149.99"
+                            "sellPrice": "149.99"
                         },
                         "sticker": {
                             "age": "new"
@@ -1701,23 +1777,27 @@
                     {
                         "id": "2.2.6",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c6"
+                                "url": "assets/images/c6"
                             },
                             {
-                                "url": "./assests/images/c6 (2)"
+                                "url": "assets/images/c6 (2)"
                             }
                         ],
-                        "product-name": "Angels Touch",
+                        "productName": "Angels Touch",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$141.00"
+                            "sellPrice": "141.00"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1759,27 +1839,28 @@
                     {
                         "id": "2.2.7",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c7"
+                                "url": "assets/images/c7"
                             },
                             {
-                                "url": "./assests/images/c7 (2)"
+                                "url": "assets/images/c7 (2)"
                             }
                         ],
-                        "product-name": "Silk Diamond",
+                        "productName": "Silk Diamond",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "offer-price":"$299.99",
-                            "sell-price": "$254.00"
+                            "offerPrice":"$299.99",
+                            "sellPrice": "254.00"
                         },
                         "sticker": {
-                            "offer-percentage":"25"
+                            "offerPercentage":"25",
+                            "age": "old"
                         },
                         "colors": [
                             {
@@ -1821,25 +1902,28 @@
                     {
                         "id": "2.2.8",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c8"
+                                "url": "assets/images/c8"
                             },
                             {
-                                "url": "./assests/images/c8 (2)"
+                                "url": "assets/images/c8 (2)"
                             }
                         ],
-                        "product-name": "Beige Dress",
+                        "productName": "Beige Dress",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "manish malhotra",
                         "price": {
-                            "sell-price": "$63.00"
+                            "sellPrice": "63.00"
                         },
-                       
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "sliver",
@@ -1876,25 +1960,28 @@
                     {
                         "id": "2.2.9",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c9"
+                                "url": "assets/images/c9"
                             },
                             {
-                                "url": "./assests/images/c9 (2)"
+                                "url": "assets/images/c9 (2)"
                             }
                         ],
-                        "product-name": "Washed & Go",
+                        "productName": "Washed & Go",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "Washed & Go",
                         "price": {
-                            "sell-price": "$94.00"
+                            "sellPrice": "94.00"
                         },
-                        
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "brown",
@@ -1931,23 +2018,23 @@
                     {
                         "id": "2.2.10",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c10"
+                                "url": "assets/images/c10"
                             },
                             {
-                                "url": "./assests/images/c10 (2)"
+                                "url": "assets/images/c10 (2)"
                             }
                         ],
-                        "product-name": "brown queen",
+                        "productName": "brown queen",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -1988,25 +2075,28 @@
                     {
                         "id": "2.2.11",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c11"
+                                "url": "assets/images/c11"
                             },
                             {
-                                "url": "./assests/images/c11 (2)"
+                                "url": "assets/images/c11 (2)"
                             }
                         ],
-                        "product-name": "classic look",
+                        "productName": "classic look",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$56.00"
+                            "sellPrice": "56.00"
                         },
-
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
                         "colors": [
                             {
                                 "color": "black",
@@ -2047,21 +2137,21 @@
                     {
                         "id": "2.2.12",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c12"
+                                "url": "assets/images/c12"
                             }
                            
                         ],
-                        "product-name": "yellow boii",
+                        "productName": "yellow boii",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2106,23 +2196,23 @@
                     {
                         "id": "2.2.13",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2167,23 +2257,23 @@
                     {
                         "id": "2.2.14",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2228,23 +2318,23 @@
                     {
                         "id": "2.2.15",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c15"
+                                "url": "assets/images/c15"
                             },
                             {
-                                "url": "./assests/images/c15 (2)"
+                                "url": "assets/images/c15"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2289,23 +2379,23 @@
                     {
                         "id": "2.2.16",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2350,23 +2440,23 @@
                     {
                         "id": "2.2.17",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2411,23 +2501,23 @@
                     {
                         "id": "2.2.18",
                         "categorie": "fashion",
-                        "sub-categorie": "clothes",
-                        "product-image": [
+                        "subCategorie": "clothes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/c1"
+                                "url": "assets/images/c1"
                             },
                             {
-                                "url": "./assests/images/c1 (2)"
+                                "url": "assets/images/c1 (2)"
                             }
                         ],
-                        "product-name": "black sizz",
+                        "productName": "black sizz",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
                         "brand": "luvi vitton",
                         "price": {
-                            "sell-price": "$123"
+                            "sellPrice": "123"
                         },
                         "sticker": {
                             "age": "new"
@@ -2475,16 +2565,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2492,11 +2582,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "offerPrice": "$123",
+                            "sellPrice": "1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2540,16 +2630,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2557,11 +2647,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "offerPrice": "$123",
+                            "sellPrice": "1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2605,16 +2695,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2622,11 +2712,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "$1423",
+                            "offerPrice": "134"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2670,16 +2760,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2687,11 +2777,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "offerPrice": "$4234",
+                            "sellPrice": "1523"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2735,16 +2825,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2752,11 +2842,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "offerPrice": "$234",
+                            "sellPrice": "123"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2800,16 +2890,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2817,11 +2907,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "offerPrice": "$1234",
+                            "sellPrice": "123"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2865,16 +2955,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2882,11 +2972,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2930,16 +3020,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2947,11 +3037,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -2995,16 +3085,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3012,11 +3102,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -3060,16 +3150,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3077,11 +3167,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "$123",
+                            "offerPrice": "1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -3125,16 +3215,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3142,11 +3232,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -3190,16 +3280,16 @@
                     {
                         "id": "2.3.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/s1"
+                                "url": "assets/images/s1"
                             },
                             {
-                                "url": "./assests/images/s1 (2)"
+                                "url": "assets/images/s1 (2)"
                             }
                         ],
-                        "product-name": "jordan",
+                        "productName": "jordan",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3207,11 +3297,11 @@
                         },
                         "brand": "nike",
                         "price": {
-                            "sell-price": "$123",
-                            "offer-price": "$1234"
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
                         },
                         "sticker": {
-                            "offer-percentage": "25",
+                            "offerPercentage": "25",
                             "age": "old"
                         },
                         "rating": "5",
@@ -3254,28 +3344,33 @@
                     }
                 ]
             },
-            "home&body": {
+            "homebody": {
                 "id":"3.0",
-                "poster":"./assests/images/home&body-poster",
+                "poster":"assets/images/home&body-poster",
                 "bodycare": [
                     {
                         "id": "3.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
+                        "colors":[{"color":""}],
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3293,21 +3388,27 @@
                     {
                         "id": "3.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
+                        "colors":[{"color":""}],
+
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3325,13 +3426,13 @@
                     {
                         "id": "3.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3339,7 +3440,12 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "colors":[{"color":""}],
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3357,21 +3463,26 @@
                     {
                         "id": "3.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
+                        "colors":[{"color":""}],
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3389,21 +3500,26 @@
                     {
                         "id": "3.1.1",
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
+                        "colors":[{"color":""}],
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3420,14 +3536,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3435,7 +3553,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3452,14 +3574,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3467,7 +3591,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3484,14 +3612,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3499,7 +3629,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3516,14 +3650,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3531,7 +3667,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3550,14 +3690,15 @@
                 "classics": [
                     {  
                         "id": "3.2.1",
+                        "colors":[{"color":""}],
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3565,7 +3706,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3582,14 +3727,15 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3597,7 +3743,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3614,14 +3764,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3629,7 +3781,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3646,14 +3802,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3661,7 +3819,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3678,14 +3840,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3693,7 +3857,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3710,14 +3878,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3725,7 +3895,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3742,14 +3916,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3757,7 +3933,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3774,14 +3954,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3789,7 +3971,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3806,14 +3992,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3821,7 +4009,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3837,17 +4029,18 @@
                         "sale": "false"
                     }
                 ],
-                "home&living": [
+                "homeliving": [
                     {  
                         "id": "3.2.1",
+                        "colors":[{"color":""}],
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3855,7 +4048,48 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
+                        },
+                        "tags": [
+                            {
+                                "tag": "shoes"
+                            },
+                            {
+                                "tag": "fashion"
+                            },
+                            {
+                                "tag": "style"
+                            }
+                        ],
+                        "sale": "false"
+                    },
+                    {  
+                        "id": "3.2.1",
+                        "colors":[{"color":""}],
+                        "categorie": "fashion",
+                        "subCategorie": "shoes",
+                        "productImage": [
+                            {
+                                "url": "assets/images/b1"
+                            }
+                        ],
+                        "productName": "sunscreen cream suv50+",
+                        "product-descripiton": {
+                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
+                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
+                          
+                        },
+                        "brand": "himaliya",
+                        "price": {
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3872,14 +4106,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3887,7 +4123,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3904,14 +4144,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3919,7 +4161,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3936,14 +4182,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3951,7 +4199,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -3968,14 +4220,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3983,7 +4237,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -4000,14 +4258,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -4015,7 +4275,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -4032,14 +4296,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -4047,7 +4313,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -4064,14 +4334,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -4079,7 +4351,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {
@@ -4096,14 +4372,16 @@
                     },
                     {
                         "id": "3.1.1",
+                        "colors":[{"color":""}],
+
                         "categorie": "fashion",
-                        "sub-categorie": "shoes",
-                        "product-image": [
+                        "subCategorie": "shoes",
+                        "productImage": [
                             {
-                                "url": "./assests/images/b1"
+                                "url": "assets/images/b1"
                             }
                         ],
-                        "product-name": "sunscreen cream suv50+",
+                        "productName": "sunscreen cream suv50+",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -4111,7 +4389,11 @@
                         },
                         "brand": "himaliya",
                         "price": {
-                            "sell-price": "$23"
+                            "sellPrice": "23"
+                        },
+                        "sticker": {
+                            "offerPercentage": "",
+                            "age": "old"
                         },
                         "tags": [
                             {

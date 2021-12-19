@@ -25,7 +25,7 @@
             </div>
 
             <div class="logo" id="logo">
-                <a href="#">Abad <img src="../Assets/media/logo.png" class="logo_img" alt=""> Trend</a>
+                <a href="../index.html">Abad <img src="../Assets/media/logo.png" class="logo_img" alt=""> Trend</a>
             </div>
             <div class="nav_menu" id="nav_menu">
                 <ul class="nav_list">
@@ -160,24 +160,29 @@
         </nav>
 
     </div>
-
-<main class="main">
+<div class="loader-div">
+    <div class="loader"></div>
+</div>
+<main class="main shadow">
 <div class="poster section">
     <img src="./assets/images/fashion-poster(2).png" alt="" class="fashion-poster">
 </div>
+
 <div class="quiary-btns">
     <div class="fillter-btn">
         <i class="ri-equalizer-fill"></i>
         Show filters
     </div>
     <div class="shorting-btn">
-        Default sorting
+        <div class="current-shorting">
+            Default sorting
+        </div>
         <i class="ri-arrow-down-s-line shorting-icon"></i>
         <div class="shorting_detail">
-            <p class="shorting_by">default shorting </p>
+            <p class="shorting_by">Default shorting </p>
             <p class="shorting_by">shorting by latest </p>
             <p class="shorting_by">shorting by popularty </p>
-            <p class="shorting_by">shorting by low to hight </p>
+            <p class="shorting_by">shorting by low to high </p>
             <p class="shorting_by">shorting by hight to low </p>
         </div>
     </div>
@@ -189,10 +194,11 @@
 
     <div class="search_bar ">
 
-        <form action="/shop" method="POST">
+        <form action="shop.html" id="searchForm" method="GET">
             <button type="submit" class="search-btn"><i class="ri-search-2-line"></i></button>
             <input type="text" id="psearch" name="psearch" class="psearch" placeholder="Search products..." >
         </form>
+
     </div>
 
     <div class="categories_section  fill_section">
@@ -471,81 +477,11 @@
 <!-- PRODUCT SECTION -->
 <div class="product_section container">
     <div class="product_container grid">
-       <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-                <a href="#" class="add_cart_btn">
-                    <i class="ri-shopping-cart-fill"></i>
-                    add to cart
-                </a>
-            </div>
-        </div>
         <div class="product_card">
             <div class="product_offer_section">
                 <span class="product_offer offer">-22%</span>
                 <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                </div>
-                <h3 class="categories_product-card">electronics,devices</h3>
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c11.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c11 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
+                <span class="heart"><i class="ri-heart-line "></i> </span>
             </div>
             <div class="product_card-images">
                 <img src="assets/images/c17.jpg" alt="" class="product_card-img">
@@ -553,11 +489,11 @@
             </div>
             <div class="product_card-data">
                 <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
+                    <i class="ri-star-fill sale_rating-icon"></i>
+                    <i class="ri-star-fill sale_rating-icon"></i>
+                    <i class="ri-star-fill sale_rating-icon"></i>
+                    <i class="ri-star-half-line sale_rating-icon"></i>
+                    <i class="ri-star-half-line sale_rating-icon"></i>
                 </div>
                 <h3 class="categories_product-card">electronics,devices</h3>
                 <h2 class="product-card_title">Angels Touch</h2>
@@ -568,193 +504,7 @@
                 </a>
             </div>
         </div> 
-       <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                </div>
-                <h3 class="categories_product-card">electronics,devices</h3>
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c11.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c11 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c17.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c17 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                </div>
-                <h3 class="categories_product-card">electronics,devices</h3>
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div> 
-       <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c18.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c18 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                </div>
-                <h3 class="categories_product-card">electronics,devices</h3>
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c11.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c11 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div>
-        <div class="product_card">
-            <div class="product_offer_section">
-                <span class="product_offer offer">-22%</span>
-                <span class="product_sub sub_offer">NEW</span>               
-                <span class="heart"><i class="ri-heart-line"></i> </span>
-            </div>
-            <div class="product_card-images">
-                <img src="assets/images/c17.jpg" alt="" class="product_card-img">
-                <img src="assets/images/c17 (2).jpg" alt="" class="product_card-img product_card-img2">
-            </div>
-            <div class="product_card-data">
-                <div class="sale_rating">
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                    <i class="ri-star-half-line"></i>
-                </div>
-                <h3 class="categories_product-card">electronics,devices</h3>
-                <h2 class="product-card_title">Angels Touch</h2>
-                <span class="product-card_price">$20.00 - $30.00</span>
-                <a href="#" class="card_btn">
-                    <i class="ri-list-check"></i>
-                    Select option
-                </a>
-            </div>
-        </div> 
-      
+            
         
     </div>
 </div>
@@ -770,6 +520,8 @@
         <span class="page page_no">3</span>
         <span class="page page_no">4</span>
         <span class="page page_no">5</span>
+        <span class="page page_no">6</span>
+        <span class="page page_no">7</span>
     </div>
     <div class="fordward">
         <span class="fordward_page page"><i class="ri-arrow-right-s-line"></i></span>
@@ -969,7 +721,7 @@
     <!-- Swiper Js -->
     <script src="../Assets/JS/swiper-bundle.min.js"></script>
 
-  <!-- <script src="./assets/shop.js"></script>   -->
+  <script src="./assets/shop.js"></script>  
   <script src="../Assets/JS/index.js"></script>  
 </body>
 </html>

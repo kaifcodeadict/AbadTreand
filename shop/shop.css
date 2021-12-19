@@ -1,3 +1,12 @@
+
+
+.hidden{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+
+}
 .header{
     background-color: hsl(var(--hue-color), 100%, 99%); ;
 }
@@ -296,6 +305,22 @@ input::-moz-focus-inner,input::-moz-focus-outer{
     text-transform: capitalize;
     font-size:var(--h3-font-size) ;
 }
+.sale_rating-icon{
+    color:var(--first-color);
+}
+.wishlist-icon{
+    border-radius: 50%;
+    padding: .5rem;
+    background-color: var(--text-color-light);
+    
+}
+.wishlist-icon:hover,.wishlist-icon-clicked{
+    color: white;
+    background-color: var(--first-color);
+    cursor: pointer;
+
+}
+
 /* ======== sale section ======== */
 /* ======== feature section ==== */
 .feature_section{
@@ -321,6 +346,8 @@ input::-moz-focus-inner,input::-moz-focus-outer{
 .product_card{
     /* width: 50%; */
     overflow: hidden;
+}.product-card_title{
+    text-transform: capitalize;
 }
 .product_card-images{
     position: relative;
@@ -351,6 +378,10 @@ input::-moz-focus-inner,input::-moz-focus-outer{
 .product_card:hover  .product_card-img2{
     visibility: visible;
     opacity: 1;
+}
+.product_card:hover{
+    cursor: pointer;
+
 }
 .product_card-data{
     display: flex;
@@ -394,10 +425,11 @@ input::-moz-focus-inner,input::-moz-focus-outer{
 .page_no{
     padding: .2rem .3rem;
 }
-.page_no:hover,.backward_page:hover,.fordward_page:hover{
+.page_no:hover,.page_no-active,.backward_page:hover,.fordward_page:hover,.page-clicked{
     background-color: var(--first-color);
     color: white;
 }
+
 /* ============== page ================== */
 
 .shop_brands_section{
