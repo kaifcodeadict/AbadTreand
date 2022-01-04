@@ -45,7 +45,7 @@
                                 ]
                             }
                         },
-                        "brand": "hero9",
+                        "brand": "washed & go",
                         "price": {
                             "offerPrice": "$39.99",
                             "sellPrice": "29.99"
@@ -64,7 +64,7 @@
                                 "color": "red"
                             },
                             {
-                                "color": "gray"
+                                "color": "grey"
                             }
                         ],
                         "weight": "0.5kg",
@@ -135,7 +135,7 @@
                         "rating": "5",
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "black"
@@ -231,7 +231,7 @@
                         },
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "grey"
@@ -283,7 +283,7 @@
                                 ]
                             }
                         },
-                        "brand": "hero9",
+                        "brand": "washed & go",
                         "price": {
                             "offerPrice": "39.99",
                             "sellPrice": "29.99"
@@ -302,7 +302,7 @@
                                 "color": "red"
                             },
                             {
-                                "color": "gray"
+                                "color": "grey"
                             }
                         ],
                         "weight": "0.5kg",
@@ -373,7 +373,7 @@
                         "rating": "5",
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "black"
@@ -469,7 +469,7 @@
                         },
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "grey"
@@ -522,7 +522,7 @@
                             }
                          
                         },
-                        "brand": "lenova",
+                        "brand": "lenovo",
                         "price": {
                             "offerPrice": "399.00",
                             "sellPrice": "249.00"
@@ -533,7 +533,7 @@
                         },
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "grey"
@@ -545,7 +545,7 @@
                                 "color": "blue"
                             },
                             {
-                                "color": "sliver"
+                                "color": "silver"
                             },
                             {
                                 "color": "black"
@@ -586,7 +586,7 @@
                         },
                         "colors": [
                             {
-                                "color": "wite"
+                                "color": "white"
                             },
                             {
                                 "color": "grey"
@@ -626,7 +626,7 @@
                             "offerPercentage": "",
                             "age": "old"
                         },
-                        "colors": [ {"color": "black"},{"color": "red"},{"color": "gray"}],
+                        "colors": [ {"color": "black"},{"color": "red"},{"color": "grey"}],
                         "weight": "907g",
                         "sizes": [{"size":"s"},{"size":"m"},{"size":"l"},{"size":"xl"}],
                         "sale": "false"
@@ -648,7 +648,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "boat",
+                        "brand": "lenovo",
                         "price": {
                             "offerPrice": "59.99",
                             "sellPrice": "39.99"
@@ -679,7 +679,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "i phone 13 pro",
+                        "brand": "apple",
                         "price": {
                             "sellPrice": "150.00"
                         }, 
@@ -687,7 +687,7 @@
                             "offerPercentage": "",
                             "age": "old"
                         },                     
-                        "colors": [ {"color": "black"},{"color": "red"},{"color": "wite"},{"color": "blue"},{"color": "gray"}],
+                        "colors": [ {"color": "black"},{"color": "red"},{"color": "white"},{"color": "blue"},{"color": "grey"}],
                         "weight": "0.20kg",
                         "sale": "false"
                     },
@@ -708,7 +708,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "roayl enfield",
+                        "brand": "lenovo",
                         "price": {
                             "sellPrice": "43.99"
                         },
@@ -733,12 +733,12 @@
                                 "url": "assets/images/speakers (2)"
                             }
                         ],
-                        "productName": "jpl home theaters",
+                        "productName": "lenovo home theaters",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at.",
                             "key-points": {
-                                "title": "JPL LAUD SPEAKERS",
+                                "title": "lenovo LAUD SPEAKERS",
                                 "points": [
                                     {
                                         "point": "Lorem ipsum dolor sit amet consectetur"
@@ -761,7 +761,7 @@
                                 ]
                             }
                         },
-                        "brand": "jpl",
+                        "brand": "lenovo",
                         "price": {
                             "offerPrice": "$145.00",
                             "sellPrice": "110.00"
@@ -789,7 +789,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "spark",
+                        "brand": "lenovo",
                         "price": {
                             "sellPrice": "29.99"
                         },
@@ -846,7 +846,7 @@
                                 ]
                             }
                         },
-                        "brand": "Luvi vitton",
+                        "brand": "luvi vitton",
                         "price": {
                             "offerPrice": "$67.45",
                             "sellPrice": "147.45"
@@ -881,10 +881,7 @@
                         "subCategorie": "accessoires",
                         "productImage": [
                             {
-                                "url": "assets/images/classic-handbag"
-                            },
-                            {
-                                "url": "assets/images/classic-handbag"
+                                "url": "./assets/images/bluehandbag"
                             }
                         ],
                         "productName": "Little Temptation",
@@ -915,7 +912,7 @@
                                 ]
                             }
                         },
-                        "brand": "Luvi vitton",
+                        "brand": "luvi vitton",
                         "price": {
                             "offerPrice": "$167.45",
                             "sellPrice": "147.45"
@@ -1183,7 +1180,7 @@
                                 ]
                             }
                         },
-                        "brand": "A&V jewallery",
+                        "brand": "tanish",
                         "price": {
                             "sellPrice": "98.99"
                         }, 
@@ -1221,13 +1218,13 @@
                                 "url": "assets/images/moden-glass (2)"
                             }
                         ],
-                        "productName": "sunglass by armani",
+                        "productName": "sunglass by tanish",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         
                         },
-                        "brand": "armani",
+                        "brand": "tanish",
                         "price": {
                             "sellPrice": "30.99"
                         },
@@ -1263,12 +1260,12 @@
                                 "url": "assets/images/rings"
                             }
                         ],
-                        "productName": "rings by varsace",
+                        "productName": "rings by tanish",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "varsace",
+                        "brand": "tanish",
                         "price": {
                             "sellPrice": "20.00"
                         },
@@ -1312,7 +1309,7 @@
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                               
                         },
-                        "brand": "Luvi vitton",
+                        "brand": "luvi vitton",
                         "price": {
                             "offerPrice": "$167.45",
                             "sellPrice": "147.45"
@@ -1354,7 +1351,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "Mk developres",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "47.45"
                         },
@@ -1364,7 +1361,7 @@
                         },
                         "colors": [
                             {
-                                "color": "golden"
+                                "color": "white"
                             },
                             {
                                 "color": "blue"
@@ -1392,15 +1389,18 @@
                         "subCategorie": "accessoires",
                         "productImage": [
                             {
-                                "url": "assets/images/goggle-in"
+                                "url": "assets/images/red-goggle"
+                            },
+                            {
+                                "url": "assets/images/blue-goggle"
                             }
                         ],
-                        "productName": "goggle by dm",
+                        "productName": "iron man glasses",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "dange vung",
+                        "brand": "marvel",
                         "price": {
                             "sellPrice": "47.45"
                         },
@@ -1410,7 +1410,7 @@
                         },
                         "colors": [
                             {
-                                "color": "golden"
+                                "color": "white"
                             },
                             {
                                 "color": "blue"
@@ -1457,7 +1457,7 @@
 
                         "colors": [
                             {
-                                "color": "golden"
+                                "color": "white"
                             }
                         ],
                         "tags": [
@@ -1497,7 +1497,7 @@
                         },
                         "colors": [
                             {
-                                "color": "golden"
+                                "color": "white"
                             }
                         ],
                         "tags": [
@@ -1658,7 +1658,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "pinky",
+                        "brand": "luvi vitton",
                         "price": {
                             "sellPrice": "123"
                         },
@@ -1715,7 +1715,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "hollywood",
+                        "brand": "washed & go",
                         "price": {
                             "sellPrice": "53.00"
                         },
@@ -1910,7 +1910,7 @@
                         },
                         "colors": [
                             {
-                                "color": "sliver",
+                                "color": "silver",
                                 "images": "/assets/images"
                             },
                             {
@@ -1962,7 +1962,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "manish malhotra",
+                        "brand": "luvi vitton",
                         "price": {
                             "sellPrice": "63.00"
                         },
@@ -1972,7 +1972,7 @@
                         },
                         "colors": [
                             {
-                                "color": "sliver",
+                                "color": "silver",
                                 "images": "/assets/images"
                             }
                         ],
@@ -2020,7 +2020,7 @@
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                         },
-                        "brand": "Washed & Go",
+                        "brand": "washed & go",
                         "price": {
                             "sellPrice": "94.00"
                         },
@@ -2030,7 +2030,7 @@
                         },
                         "colors": [
                             {
-                                "color": "brown",
+                                "color": "",
                                 "images": "/assets/images"
                             }
                         ],
@@ -2087,7 +2087,7 @@
                         },
                         "colors": [
                             {
-                                "color": "brown",
+                                "color": "",
                                 "images": "/assets/images"
                             }
                         ],
@@ -2245,13 +2245,13 @@
                         "subCategorie": "clothes",
                         "productImage": [
                             {
-                                "url": "assets/images/c1"
+                                "url": "assets/images/c13"
                             },
                             {
-                                "url": "assets/images/c1 (2)"
+                                "url": "assets/images/c13 (2)"
                             }
                         ],
-                        "productName": "black sizz",
+                        "productName": "hotti bite",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2306,13 +2306,13 @@
                         "subCategorie": "clothes",
                         "productImage": [
                             {
-                                "url": "assets/images/c1"
+                                "url": "assets/images/c14"
                             },
                             {
-                                "url": "assets/images/c1 (2)"
+                                "url": "assets/images/c14 (2)"
                             }
                         ],
-                        "productName": "black sizz",
+                        "productName": "brown girl",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2428,13 +2428,10 @@
                         "subCategorie": "clothes",
                         "productImage": [
                             {
-                                "url": "assets/images/c1"
-                            },
-                            {
-                                "url": "assets/images/c1 (2)"
+                                "url": "assets/images/c16"
                             }
                         ],
-                        "productName": "black sizz",
+                        "productName": "red vine",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2453,6 +2450,10 @@
                             },
                             {
                                 "color": "blue",
+                                "images": "/assets/images"
+                            },
+                            {
+                                "color": "red",
                                 "images": "/assets/images"
                             }
                         ],
@@ -2489,13 +2490,13 @@
                         "subCategorie": "clothes",
                         "productImage": [
                             {
-                                "url": "assets/images/c1"
+                                "url": "assets/images/c17"
                             },
                             {
-                                "url": "assets/images/c1 (2)"
+                                "url": "assets/images/c17 (2)"
                             }
                         ],
-                        "productName": "black sizz",
+                        "productName": "black hoodie",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2539,7 +2540,7 @@
                                 "tag": "dress"
                             },
                             {
-                                "tag": "lady"
+                                "tag": "men"
                             }
                         ],
                         "sale": "true"
@@ -2550,13 +2551,13 @@
                         "subCategorie": "clothes",
                         "productImage": [
                             {
-                                "url": "assets/images/c1"
+                                "url": "assets/images/c18"
                             },
                             {
-                                "url": "assets/images/c1 (2)"
+                                "url": "assets/images/c18 (2)"
                             }
                         ],
-                        "productName": "black sizz",
+                        "productName": "black hotiee",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2679,13 +2680,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s2"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s2 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "blue puma",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2744,13 +2745,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s3"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s3 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "mikel vond",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2809,10 +2810,10 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s4"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s4 (2)"
                             }
                         ],
                         "productName": "jordan",
@@ -2874,13 +2875,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s5"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s5 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "air drop",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -2939,13 +2940,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s6"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s6 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "canvas",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3004,13 +3005,147 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s7"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s7 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "white light",
+                        "product-descripiton": {
+                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
+                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
+                          
+                        },
+                        "brand": "bata",
+                        "price": {
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
+                        },
+                        "sticker": {
+                            "offerPercentage": "25",
+                            "age": "old"
+                        },
+                        "rating": "5",
+                        "colors": [
+                            {
+                                "color": "red",
+                                "images": "/assets/images"
+                            },
+                            {
+                                "color": "blue",
+                                "images": "/assets/images"
+                            }
+                        ],
+                        "sizes": [
+                            {
+                                "size": "xxl"
+                            },
+                            {
+                                "size": "xl"
+                            },
+                            {
+                                "size": "l"
+                            },
+                            {
+                                "size": "m"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "tag": "shoes"
+                            },
+                            {
+                                "tag": "fashion"
+                            },
+                            {
+                                "tag": "style"
+                            }
+                        ],
+                        "sale": "false"
+                    },
+                    {
+                        "id": "2.3.1",
+                        "categorie": "fashion",
+                        "subCategorie": "shoes",
+                        "productImage": [
+                            {
+                                "url": "assets/images/s8"
+                            },
+                            {
+                                "url": "assets/images/s8 (2)"
+                            }
+                        ],
+                        "productName": "high hells ",
+                        "product-descripiton": {
+                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
+                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
+                          
+                        },
+                        "brand": "bata",
+                        "price": {
+                            "sellPrice": "123",
+                            "offerPrice": "$1234"
+                        },
+                        "sticker": {
+                            "offerPercentage": "25",
+                            "age": "old"
+                        },
+                        "rating": "5",
+                        "colors": [
+                            {
+                                "color": "red",
+                                "images": "/assets/images"
+                            },
+                            {
+                                "color": "blue",
+                                "images": "/assets/images"
+                            }
+                        ],
+                        "sizes": [
+                            {
+                                "size": "xxl"
+                            },
+                            {
+                                "size": "xl"
+                            },
+                            {
+                                "size": "l"
+                            },
+                            {
+                                "size": "m"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "tag": "shoes"
+                            },
+                            {
+                                "tag": "fashion"
+                            },
+                            {
+                                "tag": "style"
+                            }
+                            ,
+                            {
+                                "tag": "lady"
+                            }
+                        ],
+                        "sale": "false"
+                    },
+                    {
+                        "id": "2.3.1",
+                        "categorie": "fashion",
+                        "subCategorie": "shoes",
+                        "productImage": [
+                            {
+                                "url": "assets/images/s9"
+                            },
+                            {
+                                "url": "assets/images/s9 (2)"
+                            }
+                        ],
+                        "productName": "short hells",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3069,143 +3204,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s10"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s10 (2)"
                             }
                         ],
-                        "productName": "jordan",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "nike",
-                        "price": {
-                            "sellPrice": "123",
-                            "offerPrice": "$1234"
-                        },
-                        "sticker": {
-                            "offerPercentage": "25",
-                            "age": "old"
-                        },
-                        "rating": "5",
-                        "colors": [
-                            {
-                                "color": "red",
-                                "images": "/assets/images"
-                            },
-                            {
-                                "color": "blue",
-                                "images": "/assets/images"
-                            }
-                        ],
-                        "sizes": [
-                            {
-                                "size": "xxl"
-                            },
-                            {
-                                "size": "xl"
-                            },
-                            {
-                                "size": "l"
-                            },
-                            {
-                                "size": "m"
-                            }
-                        ],
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "2.3.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/s1"
-                            },
-                            {
-                                "url": "assets/images/s1 (2)"
-                            }
-                        ],
-                        "productName": "jordan",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "nike",
-                        "price": {
-                            "sellPrice": "123",
-                            "offerPrice": "$1234"
-                        },
-                        "sticker": {
-                            "offerPercentage": "25",
-                            "age": "old"
-                        },
-                        "rating": "5",
-                        "colors": [
-                            {
-                                "color": "red",
-                                "images": "/assets/images"
-                            },
-                            {
-                                "color": "blue",
-                                "images": "/assets/images"
-                            }
-                        ],
-                        "sizes": [
-                            {
-                                "size": "xxl"
-                            },
-                            {
-                                "size": "xl"
-                            },
-                            {
-                                "size": "l"
-                            },
-                            {
-                                "size": "m"
-                            }
-                        ],
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "2.3.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/s1"
-                            },
-                            {
-                                "url": "assets/images/s1 (2)"
-                            }
-                        ],
-                        "productName": "jordan",
+                        "productName": "light canvas",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3253,7 +3258,7 @@
                                 "tag": "fashion"
                             },
                             {
-                                "tag": "style"
+                                "tag": "canvas"
                             }
                         ],
                         "sale": "false"
@@ -3264,13 +3269,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s11"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s11 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "short jordans",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3329,13 +3334,13 @@
                         "subCategorie": "shoes",
                         "productImage": [
                             {
-                                "url": "assets/images/s1"
+                                "url": "assets/images/s12"
                             },
                             {
-                                "url": "assets/images/s1 (2)"
+                                "url": "assets/images/s12 (2)"
                             }
                         ],
-                        "productName": "jordan",
+                        "productName": "sports shoe",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
@@ -3396,8 +3401,8 @@
                 "bodycare": [
                     {
                         "id": "3.1.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "bodycare",
                         "productImage": [
                             {
                                 "url": "assets/images/b1"
@@ -3420,35 +3425,34 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "body"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "skin"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
                     },
                     {
                         "id": "3.1.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "bodycare",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b2"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "glowing skin care ",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
                         "colors":[{"color":""}],
-
-                        "brand": "himaliya",
+                        "brand": "sugar",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3458,71 +3462,34 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "body"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "skin"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
                     },
                     {
                         "id": "3.1.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "bodycare",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b3"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "colors":[{"color":""}],
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "face cream",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
                         "colors":[{"color":""}],
-                        "brand": "himaliya",
+                        "brand": "sugar",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3532,202 +3499,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "body"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "skin"
                             },
                             {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "colors":[{"color":""}],
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
@@ -3737,20 +3515,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "classics",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b4"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "fairness cream",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "nykaa",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3760,34 +3538,34 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "classics"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "body"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
                     },
-                    {
-                        "id": "3.1.1",
+                    {  
+                        "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "classics",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b5"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "hair oil",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "nykaa",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3797,35 +3575,34 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "classics"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "body"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
                     },
-                    {
-                        "id": "3.1.1",
+                    {  
+                        "id": "3.2.1",
                         "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "classics",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b6"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "jasmin perfum",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "luvi vitton",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3835,35 +3612,34 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "classics"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "body"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
                     },
-                    {
-                        "id": "3.1.1",
+                    {  
+                        "id": "3.2.1",
                         "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "classics",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/b7"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "skin oil",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "nykaa",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -3873,203 +3649,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "classics"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "body"
                             },
                             {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
@@ -4079,20 +3665,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "homeliving",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/h1"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "classic interrior",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -4102,13 +3688,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "classics"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "body"
                             },
                             {
-                                "tag": "style"
+                                "tag": "care"
                             }
                         ],
                         "sale": "false"
@@ -4116,20 +3702,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "homeliving",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/h2"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "white interrior",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -4139,13 +3725,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "home"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "interrior"
                             },
                             {
-                                "tag": "style"
+                                "tag": "house"
                             }
                         ],
                         "sale": "false"
@@ -4153,20 +3739,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "homeliving",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/h3"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "white interrior",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -4176,13 +3762,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "home"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "interrior"
                             },
                             {
-                                "tag": "style"
+                                "tag": "house"
                             }
                         ],
                         "sale": "false"
@@ -4190,20 +3776,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "homeliving",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/h4"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "white interrior",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -4213,13 +3799,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "home"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "interrior"
                             },
                             {
-                                "tag": "style"
+                                "tag": "house"
                             }
                         ],
                         "sale": "false"
@@ -4227,20 +3813,20 @@
                     {  
                         "id": "3.2.1",
                         "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
+                        "categorie": "homebody",
+                        "subCategorie": "homeliving",
                         "productImage": [
                             {
-                                "url": "assets/images/b1"
+                                "url": "assets/images/h5"
                             }
                         ],
-                        "productName": "sunscreen cream suv50+",
+                        "productName": "white interrior",
                         "product-descripiton": {
                             "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
                             "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
                           
                         },
-                        "brand": "himaliya",
+                        "brand": "mk builders",
                         "price": {
                             "sellPrice": "23"
                         },
@@ -4250,354 +3836,13 @@
                         },
                         "tags": [
                             {
-                                "tag": "shoes"
+                                "tag": "home"
                             },
                             {
-                                "tag": "fashion"
+                                "tag": "interrior"
                             },
                             {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {  
-                        "id": "3.2.1",
-                        "colors":[{"color":""}],
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
-                            }
-                        ],
-                        "sale": "false"
-                    },
-                    {
-                        "id": "3.1.1",
-                        "colors":[{"color":""}],
-
-                        "categorie": "fashion",
-                        "subCategorie": "shoes",
-                        "productImage": [
-                            {
-                                "url": "assets/images/b1"
-                            }
-                        ],
-                        "productName": "sunscreen cream suv50+",
-                        "product-descripiton": {
-                            "full": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente porro natus saepe incidunt consequatur nisi eligendi a asperiores veniam? Voluptatem suscipit magnam harum quos ea nobis doloremque soluta consectetur obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor saepe cumque asperiores ea. Tempore, velit quod aliquam accusantium facere dicta.",
-                            "sub": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla temporibus modi, aut doloremque dignissimos quaerat possimus culpa animi soluta maxime tempora odit repudiandae at."
-                          
-                        },
-                        "brand": "himaliya",
-                        "price": {
-                            "sellPrice": "23"
-                        },
-                        "sticker": {
-                            "offerPercentage": "",
-                            "age": "old"
-                        },
-                        "tags": [
-                            {
-                                "tag": "shoes"
-                            },
-                            {
-                                "tag": "fashion"
-                            },
-                            {
-                                "tag": "style"
+                                "tag": "house"
                             }
                         ],
                         "sale": "false"

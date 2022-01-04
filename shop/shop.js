@@ -1,65 +1,62 @@
 // SLIDER BAR SHOP PAGE
 
-class Slide{
+class Slide {
 
-    constructor (rangeElement,valueElement,options){
-      this.rangeElement = rangeElement
-      this.valueElement = valueElement
-      this.options = options
-    
-      //Attach a listener to "change event"
-      this.rangeElement.addEventListener('input',this.updateSlider.bind(this))
+    constructor(rangeElement, valueElement, options) {
+        this.rangeElement = rangeElement
+        this.valueElement = valueElement
+        this.options = options
+
+        //Attach a listener to "change event"
+        this.rangeElement.addEventListener('input', this.updateSlider.bind(this))
     }
-    
-    init(){
-      this.rangeElement.setAttribute('min',options.min)
-      this.rangeElement.setAttribute('max',options.max)
-      this.rangeElement.value = options.cur
-      this.updateSlider()
+
+    init() {
+        this.rangeElement.setAttribute('min', options.min)
+        this.rangeElement.setAttribute('max', options.max)
+        this.rangeElement.value = options.cur
+        this.updateSlider()
     }
-    
+
     // Format money
-    asMoney(value){
-      return '$' + parseFloat(value).toLocaleString('en-US',{ maximumFractionDigits: 2 })
+    asMoney(value) {
+        return '$' + parseFloat(value).toLocaleString('en-US', { maximumFractionDigits: 2 })
     }
-    
-    generateBackground(rangeElement){
-    
-      if (this.rangeElement.value === this.options.min ){
-        return
-      }
-      let percentage = (this.rangeElement.value - this.options.min) / (this.options.max - this.options.min) * 100
-    
-      return 'background: linear-gradient(to right, #d6caa8, #d6caa8 ' + percentage + '%, #d6caa8 ' + percentage + '%, #dee1e2 100%)'
-    
-    }
-    
-    updateSlider(newValue){
-      this.valueElement.innerHTML = this.asMoney(this.rangeElement.value)
-      this.rangeElement.style = this.generateBackground(this.rangeElement.value)
-    }
-    
-    
-    }
-    
-    
-    
-    let rangeElement = document.querySelector('.range [type="range"]')
-    let valueElement = document.querySelector('.range .range_value span')
-    
-    let options = {
-      min:30,
-      max:2000,
-      cur:1000
-    }
-    
-    if (rangeElement){
-      let slider = new Slide(rangeElement,valueElement,options)
-      slider.init()
-    }
-    
-    // ============== 
 
+    generateBackground(rangeElement) {
+
+        if (this.rangeElement.value === this.options.min) {
+            return
+        }
+        let percentage = (this.rangeElement.value - this.options.min) / (this.options.max - this.options.min) * 100
+
+        return 'background: linear-gradient(to right, #d6caa8, #d6caa8 ' + percentage + '%, #d6caa8 ' + percentage + '%, #dee1e2 100%)'
+
+    }
+
+    updateSlider(newValue) {
+        this.valueElement.innerHTML = this.asMoney(this.rangeElement.value)
+        this.rangeElement.style = this.generateBackground(this.rangeElement.value)
+    }
+
+
+}
+
+let rangeElement = document.querySelector('.range [type="range"]')
+let valueElement = document.querySelector('.range .range_value span')
+
+let options = {
+    min: 30,
+    max: 2000,
+    cur: 1000
+}
+
+if (rangeElement) {
+    let slider = new Slide(rangeElement, valueElement, options)
+    slider.init()
+}
+
+// ============== 
 
 // Variables
 let StickerSection = document.querySelectorAll('.product_offer_section')
@@ -81,24 +78,14 @@ let itemsAvaliable = document.querySelectorAll('.item_count');
 let ProductCategories = document.querySelectorAll('.categories_item');
 let PagesSection = document.querySelector('.page_section');
 let PagePoster = document.querySelector('.poster');
-let Colors =document.querySelectorAll('.color_item');
+let Colors;
 let Sizes = document.querySelectorAll('.size');
 let DomInBrands = document.querySelector('.brands-fill_section .categories_list');
 let Brands;
-
-
-
-
-
-
-
-
-
-
-
+let Color = document.querySelector('.color_section .categories_list');
+console.log(Color);
 
 let AllProducts = []
-
 
 class Products {
     async getProducts() {
@@ -163,7 +150,7 @@ class Products {
 class UI {
     displayProducts(products) {
 
-        if(products.length == 0){
+        if (products.length == 0) {
             let noItem = `<h1>No Item avalible </h1>`
             this.DisplayinDom(noItem);
             PagesSection.style.display = "none"
@@ -178,7 +165,7 @@ class UI {
         let Doffer;
         let Doff;
         let pagenumber;
-        let brands=[];
+        let brands = [];
         let innerBrand = "";
 
 
@@ -192,8 +179,8 @@ class UI {
             pagenumber = Storage.getPage()[0]
             pagenumberlimit = Storage.getPage()[1]
         }
-      
-        
+
+
         for (pagenumber; pagenumber < pagenumberlimit; pagenumber++) {
             let product = products[pagenumber]
             if (product === undefined) {
@@ -284,27 +271,27 @@ class UI {
                 `
 
                 this.DisplayinDom(result)
-                
+
             };
-            
+
         }
         // DomInBrands.innerHTML = brands
 
         // set brand in dom only when there is no brand set
-        if(Storage.getBrand() == null){
-            
-            products.forEach(product =>{
+        if (Storage.GetSubFillters('brand') == null) {
+
+            products.forEach(product => {
                 brands.push(product.brand)
+
             })
-            console.log(brands);
 
             //make the item uniq and count the occurance  from stackoverflow
-        const map = brands.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
+            const map = brands.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
 
             let uniq = [...map.keys()]
             let elements = [...map.values()]
-            uniq.forEach((ele,index) =>{
-                innerBrand +=  ` <li class="categories_item main_categorie">
+            uniq.forEach((ele, index) => {
+                innerBrand += ` <li class="categories_item main_categorie">
                 <a href="#" class="brand_link">${ele}</a>
                 <span class="item_count">${elements[index]}</span>
                 </li>   `
@@ -313,15 +300,15 @@ class UI {
             //console.log(DomInBrands);
             Storage.setCurrentBrand(innerBrand)
         }
-        else{
+        else {
             let zyx = Storage.getCurrentBrand()
-            if(DomInBrands.firstElementChild == null){
-                zyx.forEach(xy =>{
-                    DomInBrands.appendChild(xy)  
+            if (DomInBrands.firstElementChild == null) {
+                zyx.forEach(xy => {
+                    DomInBrands.appendChild(xy)
                 })
             }
         }
-        
+
         // make page number Display According to product length
 
         this.PageDisplaySetter(productCount.length)
@@ -385,8 +372,10 @@ class UI {
         ProductDOM.innerHTML = product
 
     }
-    AfterVariables(){
+    AfterVariables() {
         Brands = document.querySelectorAll('.brands-fill_section .categories_item');
+        Colors = document.querySelectorAll('.color_item');
+
         //console.log(Brands);
     }
     Events(products) {
@@ -424,7 +413,7 @@ class UI {
 
 
         // Shorting ==========
-        let setShort = Storage.getShorting();
+        let setShort = Storage.GetSubFillters('shortBy');
 
 
         if (setShort == null) {
@@ -446,7 +435,7 @@ class UI {
                 let shortBy = e.target.innerHTML;
                 CurrentShortig.innerHTML = shortBy;
                 Storage.setPage(0, 1);
-                Storage.setShorting(shortBy);
+                Storage.AddSubFillters(shortBy, 'shortBy');
                 window.location.reload();
 
             })
@@ -465,16 +454,16 @@ class UI {
                 // make the element to string for storing into session storage
                 let x = new XMLSerializer().serializeToString(product);
 
-              //console.log(x);
+                //console.log(x);
                 this.EventListnerFillter(x)
             })
         })
 
 
         // Product Categories
-    
+
         // price ======
-        let getPrice = Storage.getPrice();
+        let getPrice = Storage.GetSubFillters('price');
 
 
         if (getPrice !== null) {
@@ -482,105 +471,103 @@ class UI {
             let getProducts = this.getProductsbyFillter(getPrice);
             this.displayProducts(getProducts);
         }
-        rangeElement.addEventListener('change',()=>{
+        rangeElement.addEventListener('change', () => {
             //console.log(valueElement.innerHTML);
             let input = valueElement.innerHTML;
-            let y = input.replace(/[$,]/g,'')
+            let y = input.replace(/[$,]/g, '')
             //console.log("hello");
-            Storage.setPrice(y)  
+            Storage.AddSubFillters(y, 'price')
             window.location.reload()
         })
         // price ======
 
         // Color ==========  
-        let getColor = Storage.getColor();
+        let getColor = Storage.GetSubFillters('color');
         if (getColor !== null) {
             let getProducts = this.getProductsbyFillter(getColor);
-            Colors.forEach(color =>{
-                    let selectColor = color.firstElementChild.nextElementSibling.innerHTML ; 
-                    if(selectColor == getColor){
-                        color.lastElementChild.classList.add('item_count-active')
-                        color.firstElementChild.nextElementSibling.classList.add('categories_item-active')
-                        //console.log(color);
-                    }               
-    
+            Colors.forEach(color => {
+                let selectColor = color.firstElementChild.nextElementSibling.innerHTML;
+                if (selectColor == getColor) {
+                    color.lastElementChild.classList.add('item_count-active')
+                    color.firstElementChild.nextElementSibling.classList.add('categories_item-active')
+                    //console.log(color);
+                }
+
             })
-    
+
             this.displayProducts(getProducts);
         }
-        Colors.forEach(color =>{
-            color.addEventListener('click',()=>{
-                if(color.lastElementChild.classList.contains('item_count-active')){
+        Colors.forEach(color => {
+            color.addEventListener('click', () => {
+                if (color.lastElementChild.classList.contains('item_count-active')) {
                     Storage.removeSubFillter('color')
-                }else{
-                    let selectColor = color.firstElementChild.nextElementSibling.innerHTML ; 
-                    Storage.setColor(selectColor)  
-                    //console.log(selectColor);
+                } else {
+                    let selectColor = color.firstElementChild.nextElementSibling.innerHTML;
+                    Storage.AddSubFillters(selectColor, 'color')
                 }
-                 window.location.reload()
+                window.location.reload()
 
             })
         })
         // Color ==========
         // Size ==========
-        let Sizee = Storage.getSize();
-        if ( Sizee !== null) {
+        let Sizee = Storage.GetSubFillters('size');
+        if (Sizee !== null) {
             let getProducts = this.getProductsbyFillter(Sizee);
-           Sizes.forEach(size  =>{
-               if( size.innerHTML == Sizee){
-                size.classList.add('size-active')
-               }
+            Sizes.forEach(size => {
+                if (size.innerHTML == Sizee) {
+                    size.classList.add('size-active')
+                }
 
             })
-    
+
             this.displayProducts(getProducts);
         }
-        Sizes.forEach(size =>{
-         size.addEventListener('click',()=>{
-size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.setSize(size.innerHTML)
-                
+        Sizes.forEach(size => {
+            size.addEventListener('click', () => {
+                size.classList.contains('size-active') ? Storage.removeSubFillter('size') : Storage.AddSubFillters(size.innerHTML, 'size')
+
                 window.location.reload()
-                
+
             })
         })
         // Size ==========
         // Brands ==========
-        let Brandd = Storage.getBrand();
-        if ( Brandd !== null) {
+        let Brandd = Storage.GetSubFillters('brand');
+        if (Brandd !== null) {
             let getProducts = this.getProductsbyFillter(Brandd);
-           Brands.forEach(brand  =>{
-            let brandzz = brand.firstElementChild.innerHTML ;
-               if( brandzz == Brandd){
-               brand.lastElementChild.classList.add('item_count-active')
-               brand.firstElementChild.classList.add('categories_item-active')
-               //console.log(brandzz);
-               }
+            Brands.forEach(brand => {
+                let brandzz = brand.firstElementChild.innerHTML;
+                if (brandzz == Brandd) {
+                    brand.lastElementChild.classList.add('item_count-active')
+                    brand.firstElementChild.classList.add('categories_item-active')
+                    //console.log(brandzz);
+                }
 
             })
             this.displayProducts(getProducts);
         }
-        Brands.forEach(brand =>{
-         brand.addEventListener('click',()=>{
-            if(brand.lastElementChild.classList.contains('item_count-active')){
-                Storage.removeSubFillter('brand')
-            }else{
-                let selectColor = brand.firstElementChild.innerHTML ; 
-                Storage.setBrand(selectColor)  
-                Storage.setPage(0, 1);
+        Brands.forEach(brand => {
+            brand.addEventListener('click', () => {
+                if (brand.lastElementChild.classList.contains('item_count-active')) {
+                    Storage.removeSubFillter('brand')
+                } else {
+                    let selectColor = brand.firstElementChild.innerHTML;
+                    Storage.AddSubFillters(selectColor, 'brand')
+                    Storage.setPage(0, 1);
 
-                // Storage.setBrand(selectColor)  
-                //console.log(selectColor);
-            }
+                    // Storage.setBrand(selectColor)  
+                    //console.log(selectColor);
+                }
                 window.location.reload()
-                
+
             })
         })
         // Brands ==========
-        
+
     }
 
-
-    EventListnerFillter(fillter){
+    EventListnerFillter(fillter) {
         Storage.setFillter(fillter);
         Storage.setPage(0, 1);
         Storage.removeSubFillter('shortBy')
@@ -635,7 +622,7 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
         }
     }
     // fillter like color and price and size
-    getProductsbyFillter(fillter){
+    getProductsbyFillter(fillter) {
         //console.log(fillter);
         let fillterProducts = JSON.parse(sessionStorage.getItem('fillterProducts'))
         let products;
@@ -646,21 +633,21 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
             products = fillterProducts;
         }
 
-     let   fillterProduct = products.filter((product) => {
-        if(fillter.match(/[0-9a-zA-Z&;]+$/) && (this.color(product, fillter) || this.sizesFillter(product, fillter)|| this.brand(product, fillter) ) ){
-            //console.log("Brrandddd");
-            return product
-        }else if(fillter.match(/^[0-9]+$/)) {
-            
-            if (product.price.sellPrice <= fillter) {
-                
-                
+        let fillterProduct = products.filter((product) => {
+            if (fillter.match(/[0-9a-zA-Z&;]+$/) && (this.color(product, fillter) || this.sizesFillter(product, fillter) || this.brand(product, fillter))) {
+                //console.log("Brrandddd");
                 return product
+            } else if (fillter.match(/^[0-9]+$/)) {
+
+                if (product.price.sellPrice <= fillter) {
+
+
+                    return product
+                }
             }
-        }       
-        //console.log(product);
-        return null 
-    })
+            //console.log(product);
+            return null
+        })
         //console.log(fillterProduct);
         return fillterProduct
     }
@@ -769,18 +756,18 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
         if (typeof fillterName == "object") {
             fillterName = fillterName.firstElementChild.innerHTML.toLowerCase()
             //console.log( fillterName);
-         PagePoster.innerHTML = `<img src="./assets/images/${fillterName}-poster.png" alt="" class="categorie-poster ${fillterName}-poster">`
-         document.title = `${fillterName.toUpperCase()} - Abad`
+            PagePoster.innerHTML = `<img src="./assets/images/${fillterName}-poster.png" alt="" class="categorie-poster ${fillterName}-poster">`
+            document.title = `${fillterName.toUpperCase()} - Abad`
 
             fillterProduct = products.filter((product) => {
-        if (product.categorie.toLowerCase().includes( fillterName) ||        product.subCategorie.toLowerCase().includes( fillterName) 
+                if (product.categorie.toLowerCase().includes(fillterName) || product.subCategorie.toLowerCase().includes(fillterName)
                 ) {
                     return product
                 }
             })
             // adding active class for catogrie clicked
             ProductCategories.forEach(product => {
-                if(product.firstElementChild.innerHTML == fillterName){
+                if (product.firstElementChild.innerHTML == fillterName) {
                     product.firstElementChild.classList.add('categories_item-active');
                     product.firstElementChild.nextElementSibling.classList.add('item_count-active');
                 }
@@ -797,12 +784,12 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
 
             fillterName = fillterName.toLowerCase();
             fillterProduct = products.filter((product) => {
-         if (product.categorie.toLowerCase().includes(fillterName) ||
-               product.subCategorie.toLowerCase().includes(fillterName) ||
-                product.productName.toLowerCase().includes(fillterName) ||
-                 product.brand.toLowerCase().includes(fillterName) ||
-                 this.color(product, fillterName) ||
-                 this.tag(product, fillterName)
+                if (product.categorie.toLowerCase().includes(fillterName) ||
+                    product.subCategorie.toLowerCase().includes(fillterName) ||
+                    product.productName.toLowerCase().includes(fillterName) ||
+                    product.brand.toLowerCase().includes(fillterName) ||
+                    this.color(product, fillterName) ||
+                    this.tag(product, fillterName)
                     // product.color.toLowerCase().includes(fillterName) 
 
                 ) {
@@ -819,7 +806,6 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
             let noItem = `<h1>No Item avalible </h1>`
             this.DisplayinDom(noItem);
             PagesSection.style.display = "none"
-
         }
         else {
             Storage.setFillterProducts(fillterProduct)
@@ -839,7 +825,45 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
 
 
     }
+    // adding color fillter in dom according to products count
+    Colorcount() {
+        let fillterProducts = JSON.parse(sessionStorage.getItem('fillterProducts'))
+        let products;
+        if (fillterProducts == undefined || fillterProducts == null) {
+            products = JSON.parse(sessionStorage.getItem('products'));
+        } else {
+            products = fillterProducts;
+        }
+        let colorcunt = []
+        products.forEach(product => {
+            product.colors.forEach(color => {
+                colorcunt.push(color.color)
+            })
+        })
+        const map = colorcunt.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
+        let result = "";
+        let ItratedColor = [...map.keys()].filter(String);
+        let ItratedValues = [...map.values()]
+        console.log([...map.keys()].filter(String));
+        console.log([...map.values()]);
+
+        ItratedColor.forEach((item, key) => {
+            result += `  <li class="color_item">
+          <span class="color-select" style='background:${item};'></span>
+          <a href="#" class="color_link">${item}</a>
+          <span class="item_count">${ItratedValues[key]}</span>
+      </li>`;
+
+        })
+        Color.innerHTML = result
+
+    }
+    // thids color is for fillter
     color(product, colorName) {
+
+
+
+
         let result = false;
         product.colors.forEach(color => {
             if (color.color.toLowerCase().includes(colorName) || color.color.toLowerCase().includes(colorName)) {
@@ -877,12 +901,12 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
 
 
     }
-    sizesFillter(product,names){
+    sizesFillter(product, names) {
         let result = false;
-        if(product.sizes == undefined || null){
+        if (product.sizes == undefined || null) {
             return result
         }
-        
+
         product.sizes.forEach(sizee => {
             if (sizee.size.toLowerCase().includes(names)) {
 
@@ -895,9 +919,9 @@ size.classList.contains('size-active')?Storage.removeSubFillter('size'):Storage.
 
         return result
     }
-    brand(product,names){
+    brand(product, names) {
         //console.log(names);
-     return   product.brand.toLowerCase().includes(names.toLowerCase())?true:false 
+        return product.brand.toLowerCase().includes(names.toLowerCase()) ? true : false
     }
 
 
@@ -931,23 +955,15 @@ class Storage {
             return false
         }
     }
-    static setShorting(shorting) {
-        sessionStorage.setItem('shortBy', JSON.stringify(shorting))
-    }
-    static getShorting() {
-        let shortBy = JSON.parse(sessionStorage.getItem('shortBy'));
-        return shortBy;
-    }
-   
     static setFillter(fillter) {
         sessionStorage.setItem('fillter', JSON.stringify(fillter))
     }
     static getFillter() {
         let fillter = JSON.parse(sessionStorage.getItem('fillter'))
         // make the element in dom element for giveing to fillter method
-        if(fillter && fillter.length > 50){
+        if (fillter && fillter.length > 50) {
             let parser = new DOMParser();
-            let doc = parser.parseFromString(fillter, 'text/html');  
+            let doc = parser.parseFromString(fillter, 'text/html');
             let element = doc.body.firstElementChild;
             fillter = element;
 
@@ -965,51 +981,23 @@ class Storage {
 
 
     }
-    // static AddSubFillters(fillter,filltername){
-    //     sessionStorage.setItem(`${filltername}`, JSON.stringify(fillter))
-    // }
-    // static GetSubFillters(filltername) {
-    //     let price = JSON.parse(sessionStorage.getItem(`${filltername}`));
-    //     return price;
-    // }
+    static AddSubFillters(fillter, filltername) {
+        sessionStorage.setItem(`${filltername}`, JSON.stringify(fillter))
+    }
+    static GetSubFillters(filltername) {
+        let price = JSON.parse(sessionStorage.getItem(`${filltername}`));
+        return price;
+    }
     static setFillterProducts(fillterProducts) {
         sessionStorage.setItem('fillterProducts', JSON.stringify(fillterProducts))
     }
-    static setPrice(price){
-        sessionStorage.setItem('price', JSON.stringify(price))
-    }
-    static getPrice() {
-        let price = JSON.parse(sessionStorage.getItem('price'));
-        return price;
-    }
-    static setColor(color){
-        sessionStorage.setItem('color', JSON.stringify(color))
-    }
-    static getColor() {
-        let color = JSON.parse(sessionStorage.getItem('color'));
-        return color;
-    }
-    static setSize(size){
-        sessionStorage.setItem('size', JSON.stringify(size))
-    }
-    static getSize() {
-        let size = JSON.parse(sessionStorage.getItem('size'));
-        return size;
-    }
-    static setBrand(size){
-        sessionStorage.setItem('brand', JSON.stringify(size))
-    }
-    static getBrand() {
-        let size = JSON.parse(sessionStorage.getItem('brand'));
-        return size;
-    }
-    static setCurrentBrand(size){
+    static setCurrentBrand(size) {
         sessionStorage.setItem('brands', JSON.stringify(size))
     }
     static getCurrentBrand() {
         let size = JSON.parse(sessionStorage.getItem('brands'));
         let parser = new DOMParser();
-        let doc = parser.parseFromString(size, 'text/html');  
+        let doc = parser.parseFromString(size, 'text/html');
         let element = doc.body.querySelectorAll('li');
         size = element;
         return size;
@@ -1019,29 +1007,6 @@ class Storage {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -1053,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let products = sum.Allproducts
         let productCount = sum.ProductsCount
         if (Storage.getFillter() !== null) {
-                //console.log("i am in fillter");
+            //console.log("i am in fillter");
             let fillter = Storage.getFillter();
             ui.Fillter(fillter)
 
@@ -1063,8 +1028,9 @@ document.addEventListener('DOMContentLoaded', () => {
             Storage.saveProducts(products)
         }
         ui.displayFillter(productCount);
+        ui.Colorcount()
         ui.AfterVariables();
-     
+
 
         // make a saprate method for card event listners
 
